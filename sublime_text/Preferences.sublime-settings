@@ -1,0 +1,20 @@
+{
+    "ensure_newline_at_eof_on_save": true,
+    "folder_exclude_patterns":
+    [
+        ".svn",
+        ".git",
+        ".hg",
+        "CVS",
+        ".sass-cache"
+    ],
+    "font_size": 12.0,
+    "highlight_line": true,
+    "ignored_packages":
+    [
+    ],
+    "show_full_path": true,
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "word_wrap": false
+}

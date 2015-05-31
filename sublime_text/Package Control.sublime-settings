@@ -1,0 +1,11 @@
+{
+    "installed_packages":
+    [
+        "CoffeeScript",
+        "Emmet",
+        "Package Control",
+        "SCSS",
+        "SublimeLinter",
+        "TernJS"
+    ]
+}

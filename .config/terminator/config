@@ -1,0 +1,18 @@
+[global_config]
+[keybindings]
+  next_tab = <Shift>Right
+  full_screen = <Ctrl><Shift>F11
+  prev_tab = <Shift>Left
+[profiles]
+  [[default]]
+    use_system_font = False
+    font = DejaVu Sans Mono 12
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]

@@ -1,0 +1,17 @@
+[user]
+        name = Jonathan Trang
+        email = jon301@gmail.com
+[alias]
+        br = branch -v
+        ba = branch -va
+        cm = commit -v
+        co = checkout
+        st = status
+        ru = remote update
+        nlog = log --name-status --decorate
+        ls = log --pretty=online --abbrev-commit --decorate
+        ls = log --pretty=online --abbrev-commit --decorate --graph
+[color]
+        ui = auto
+[merge]
+        summary = true
