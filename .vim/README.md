@@ -2,7 +2,7 @@
 
 1. Install ag itself first:
 
-https://github.com/rking/ag.vim#installation
+   https://github.com/rking/ag.vim#installation
 
 2. Set up [Vundle]:
 
