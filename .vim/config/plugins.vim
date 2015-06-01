@@ -26,7 +26,6 @@ Plug 'mattn/emmet-vim', {'for': ['html', 'html.twig']}
 Plug 'mhinz/vim-startify'
 Plug 'nelstrom/vim-visual-star-search'
 Plug 'Raimondi/delimitMate'
-Plug 'rhysd/committia.vim'
 Plug 'rking/ag.vim'
 Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdcommenter'
@@ -34,6 +33,8 @@ Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
 Plug 'Shougo/neomru.vim'
 Plug 'sjl/gundo.vim', {'on': 'GundoToggle'}
 Plug 'taiansu/nerdtree-ag', {'on': 'NERDTreeToggle'}
+Plug 'tobyS/pdv'
+Plug 'tobyS/vmustache'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-fugitive'
@@ -48,6 +49,7 @@ Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
+Plug 'SirVer/ultisnips'
 call plug#end()
 
 " auto install plugins
@@ -62,4 +64,5 @@ endif
 source ~/.vim/config/plugins/vim-gitgutter.vim
 source ~/.vim/config/plugins/vim-startify.vim
 source ~/.vim/config/plugins/nerdtree.vim
+source ~/.vim/config/plugins/pdv.vim
 

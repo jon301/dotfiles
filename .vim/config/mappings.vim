@@ -58,3 +58,6 @@ nnoremap tt :tab split <cr>:exec("tag ".expand("<cword>"))<cr>
 " fzf
 nnoremap <leader>ff :FZF<cr>
 
+" pdv
+nnoremap <leader>dc :call pdv#DocumentWithSnip()<CR>
+
