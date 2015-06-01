@@ -55,3 +55,6 @@ map <s-c> ,c<space>
 " nnoremap tt <c-]>
 nnoremap tt :tab split <cr>:exec("tag ".expand("<cword>"))<cr>
 
+" fzf
+nnoremap <leader>ff :FZF<cr>
+
