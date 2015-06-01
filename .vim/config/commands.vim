@@ -13,3 +13,6 @@ command! -bar -nargs=0 SudoW :silent exe "write !sudo tee % >/dev/null"|silent e
 
 " clear last search highlight by typing ":C"
 command! C let @/=""
+
+" will cause the quickfix window to open after any grep invocation
+autocmd QuickFixCmdPost *grep* cwindow
