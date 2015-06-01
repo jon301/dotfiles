@@ -16,3 +16,7 @@ command! C let @/=""
 
 " will cause the quickfix window to open after any grep invocation
 autocmd QuickFixCmdPost *grep* cwindow
+
+" fix background color bleeding
+autocmd BufEnter * redraw
+
