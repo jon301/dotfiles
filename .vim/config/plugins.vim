@@ -65,4 +65,5 @@ source ~/.vim/config/plugins/vim-gitgutter.vim
 source ~/.vim/config/plugins/vim-startify.vim
 source ~/.vim/config/plugins/nerdtree.vim
 source ~/.vim/config/plugins/pdv.vim
+source ~/.vim/config/plugins/supertab.vim
 

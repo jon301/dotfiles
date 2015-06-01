@@ -108,3 +108,6 @@ set splitright
 
 " encoding used for the terminal
 set termencoding=utf-8
+
+" disable autocomplete preview menu
+set completeopt-=preview
