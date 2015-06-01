@@ -32,9 +32,6 @@ Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
 Plug 'Shougo/neomru.vim'
-Plug 'Shougo/unite-outline'
-Plug 'Shougo/unite.vim'
-Plug 'Shougo/vimproc.vim', {'do': 'make'}
 Plug 'sjl/gundo.vim', {'on': 'GundoToggle'}
 Plug 'taiansu/nerdtree-ag', {'on': 'NERDTreeToggle'}
 Plug 'tpope/vim-abolish'
@@ -43,7 +40,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-markdown'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
-Plug 'tsukkee/unite-tag'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'vim-scripts/matchit.zip'
 
@@ -66,5 +62,4 @@ endif
 source ~/.vim/config/plugins/vim-gitgutter.vim
 source ~/.vim/config/plugins/vim-startify.vim
 source ~/.vim/config/plugins/nerdtree.vim
-source ~/.vim/config/plugins/unite.vim
 

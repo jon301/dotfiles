@@ -51,29 +51,7 @@ nnoremap <leader>nf :NERDTreeFind<cr>
 " https://github.com/scrooloose/nerdcommenter
 map <s-c> ,c<space>
 
-" unite
-nnoremap <silent> <leader>ff
-      \ :<c-u>Unite
-      \ -no-split -buffer-name=files -start-insert
-      \ file_rec/async<cr>
-nnoremap <silent> <leader>fb
-      \ :<c-u>Unite
-      \ -no-split -buffer-name=buffers -start-insert
-      \ buffer<cr>
-nnoremap <silent> <leader>fo
-      \ :<c-u>Unite
-      \ -no-split -buffer-name=outline -start-insert
-      \ outline<cr>
-nnoremap <silent> <leader>fl
-      \ :<c-u>Unite
-      \ -no-split -buffer-name=lines -start-insert
-      \ line<cr>
-nnoremap <silent> <leader>fm
-      \ :<c-u>Unite
-      \ -no-split -buffer-name=lines -start-insert
-      \ file_mru<cr>
-nnoremap <silent> <leader>fc
-      \ :<c-u>UniteWithBufferDir
-      \ -no-split -buffer-name=lines -start-insert
-      \ file_rec/async<cr>
+" tags
+" nnoremap tt <c-]>
+nnoremap tt :tab split <cr>:exec("tag ".expand("<cword>"))<cr>
 
