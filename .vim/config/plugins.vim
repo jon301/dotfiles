@@ -18,12 +18,15 @@ Plug 'csscomb/vim-csscomb'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'ervandew/supertab'
 Plug 'flazz/vim-colorschemes'
+Plug 'gregsexton/gitv'
 Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': 'yes \| ./install'}
+Plug 'junegunn/vim-easy-align'
 Plug 'Lokaltog/vim-easymotion'
 Plug 'majutsushi/tagbar'
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
 Plug 'mattn/emmet-vim', {'for': ['html', 'html.twig']}
 Plug 'mhinz/vim-startify'
+Plug 'nathanaelkane/vim-indent-guides'
 Plug 'nelstrom/vim-visual-star-search'
 Plug 'Raimondi/delimitMate'
 Plug 'rking/ag.vim'
@@ -33,6 +36,7 @@ Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
 Plug 'Shougo/neomru.vim'
 Plug 'sjl/gundo.vim', {'on': 'GundoToggle'}
 Plug 'taiansu/nerdtree-ag', {'on': 'NERDTreeToggle'}
+Plug 'terryma/vim-multiple-cursors'
 Plug 'tobyS/pdv'
 Plug 'tobyS/vmustache'
 Plug 'tpope/vim-abolish'
@@ -66,4 +70,5 @@ source ~/.vim/config/plugins/vim-startify.vim
 source ~/.vim/config/plugins/nerdtree.vim
 source ~/.vim/config/plugins/pdv.vim
 source ~/.vim/config/plugins/supertab.vim
+source ~/.vim/config/plugins/vim-indent-guides.vim
 

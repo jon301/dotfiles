@@ -60,3 +60,19 @@ nnoremap <leader>dc :call pdv#DocumentWithSnip()<CR>
 nmap <leader>nh <Plug>GitGutterNextHunk
 nmap <leader>ph <Plug>GitGutterPrevHunk
 
+" EasyAlign
+vmap <Enter> <Plug>(EasyAlign)
+nmap ga <Plug>(EasyAlign)
+
+" gitv
+" http://www.gregsexton.org/2011/05/gitv-range/
+" List all commits of a file : type :Gitv!
+" Select a commit you want to see with : press Enter
+" Show diff between current and selected commit : press D
+
+" vim-multiple-cursors
+" <c-n> multiple times to select all occurrences of a word/paragraph
+
+" vim-indent-guides
+" <leader>ig
+

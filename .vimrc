@@ -21,4 +21,3 @@ source ~/.vim/config/plugins.vim
 " ------------------------------------------------------------
 " Colors
 source ~/.vim/config/colors.vim
-
