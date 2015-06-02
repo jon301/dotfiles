@@ -34,25 +34,20 @@ nnoremap <f2> @a
 " Plugins
 
 " gundo
-" https://github.com/sjl/gundo.vim
 nnoremap <leader>gu :GundoToggle<cr>
 
 " tagbar
-" https://github.com/majutsushi/tagbar
 nnoremap <leader>tt :TagbarToggle<cr>
 
 " nerdtree ("m" to open menu)
-" https://github.com/scrooloose/nerdtree
 nnoremap <leader>nt :NERDTreeToggle<cr>
 " find the current file in the tree
 nnoremap <leader>nf :NERDTreeFind<cr>
 
 " nerdcommenter
-" https://github.com/scrooloose/nerdcommenter
 map <s-c> ,c<space>
 
 " tags
-" nnoremap tt <c-]>
 nnoremap tt :tab split <cr>:exec("tag ".expand("<cword>"))<cr>
 
 " fzf
@@ -60,4 +55,8 @@ nnoremap <leader>ff :FZF<cr>
 
 " pdv
 nnoremap <leader>dc :call pdv#DocumentWithSnip()<CR>
+
+" gitgutter
+nmap <leader>nh <Plug>GitGutterNextHunk
+nmap <leader>ph <Plug>GitGutterPrevHunk
 
