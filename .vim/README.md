@@ -1,15 +1,14 @@
 ## Installation
 
-1. Install ag itself first:
+1. Install `ag` itself first:
 
    https://github.com/rking/ag.vim#installation
 
-2. Set up [Vundle]:
+2. Install `jshint`:
 
-   `$ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+   `sudo npm install -g jshint`
 
-3. Install Plugins:
+3. Put thise line in `.bashrc` to make FZF use ag instead:
 
-   Launch `vim` and run `:PluginInstall`
+   `export FZF_DEFAULT_COMMAND='ag -l -g ""'`
 
-   To install from command line: `vim +PluginInstall +qall`
