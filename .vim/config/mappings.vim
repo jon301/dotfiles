@@ -64,6 +64,9 @@ nmap <leader>ph <Plug>GitGutterPrevHunk
 vmap <Enter> <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
+" vim-startify
+nnoremap <leader>st :Startify<cr>
+
 " gitv
 " http://www.gregsexton.org/2011/05/gitv-range/
 " List all commits of a file : type :Gitv!
