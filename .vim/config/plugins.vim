@@ -17,8 +17,10 @@ Plug 'chrisbra/NrrwRgn'
 Plug 'csscomb/vim-csscomb'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'ervandew/supertab'
+Plug 'evidens/vim-twig'
 Plug 'flazz/vim-colorschemes'
 Plug 'gregsexton/gitv'
+Plug 'jistr/vim-nerdtree-tabs'
 Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': 'yes \| ./install'}
 Plug 'junegunn/vim-easy-align'
 Plug 'Lokaltog/vim-easymotion'
@@ -32,7 +34,7 @@ Plug 'Raimondi/delimitMate'
 Plug 'rking/ag.vim'
 Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdcommenter'
-Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
+Plug 'scrooloose/nerdtree'
 Plug 'Shougo/neomru.vim'
 Plug 'sjl/gundo.vim', {'on': 'GundoToggle'}
 Plug 'taiansu/nerdtree-ag', {'on': 'NERDTreeToggle'}
@@ -71,4 +73,3 @@ source ~/.vim/config/plugins/nerdtree.vim
 source ~/.vim/config/plugins/pdv.vim
 source ~/.vim/config/plugins/supertab.vim
 source ~/.vim/config/plugins/vim-indent-guides.vim
-

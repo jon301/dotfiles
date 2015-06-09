@@ -1,6 +1,6 @@
 syntax on
 set t_Co=256
-colorscheme hybrid
+colorscheme darkburn
 
 " color of the line at the edge of the set textwidth
 hi ColorColumn ctermbg=black guibg=black
