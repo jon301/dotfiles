@@ -111,3 +111,11 @@ set termencoding=utf-8
 
 " disable autocomplete preview menu
 set completeopt-=preview
+
+" auto format options
+" http://vimdoc.sourceforge.net/htmldoc/change.html#fo-table
+set formatoptions-=t
+
+" allow backspacing over autoindent, line breaks, start of insert
+set backspace=indent,eol,start
+
