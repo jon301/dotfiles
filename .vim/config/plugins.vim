@@ -20,7 +20,7 @@ Plug 'ervandew/supertab'
 Plug 'evidens/vim-twig'
 Plug 'flazz/vim-colorschemes'
 Plug 'gregsexton/gitv'
-Plug 'jistr/vim-nerdtree-tabs'
+Plug 'jeetsukumaran/vim-buffergator'
 Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': 'yes \| ./install'}
 Plug 'junegunn/vim-easy-align'
 Plug 'Lokaltog/vim-easymotion'
@@ -37,7 +37,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'Shougo/neomru.vim'
 Plug 'sjl/gundo.vim', {'on': 'GundoToggle'}
-Plug 'taiansu/nerdtree-ag', {'on': 'NERDTreeToggle'}
+Plug 'taiansu/nerdtree-ag'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tobyS/pdv'
 Plug 'tobyS/vmustache'
@@ -49,6 +49,8 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'vim-scripts/matchit.zip'
+Plug 'xolox/vim-colorscheme-switcher'
+Plug 'xolox/vim-misc'
 
 " code snippets
 Plug 'MarcWeber/vim-addon-mw-utils'
@@ -73,3 +75,6 @@ source ~/.vim/config/plugins/nerdtree.vim
 source ~/.vim/config/plugins/pdv.vim
 source ~/.vim/config/plugins/supertab.vim
 source ~/.vim/config/plugins/vim-indent-guides.vim
+source ~/.vim/config/plugins/vim-buffergator.vim
+source ~/.vim/config/plugins/vim-airline.vim
+

@@ -40,7 +40,7 @@ nnoremap <leader>gu :GundoToggle<cr>
 nnoremap <leader>tt :TagbarToggle<cr>
 
 " nerdtree ("m" to open menu)
-nnoremap <leader>nt :NERDTreeTabsToggle<cr>
+nnoremap <leader>nt :NERDTreeToggle<cr>
 " find the current file in the tree
 nnoremap <leader>nf :NERDTreeFind<cr>
 
