@@ -30,6 +30,14 @@ nnoremap <leader>sw :set wrap<cr>
 " quick way to recall macro "a"
 nnoremap <f2> @a
 
+" buffers navigation
+" go to next buffer
+nnoremap <leader>n :bn<cr>
+" go to prev buffer
+nnoremap <leader>p :bp<cr>
+" delete current buffer
+nnoremap <leader>q :bd<cr>
+
 " ------------------------------------------------------------
 " Plugins
 
@@ -39,6 +47,15 @@ nnoremap <leader>gu :GundoToggle<cr>
 " tagbar
 nnoremap <leader>tt :TagbarToggle<cr>
 
+" jump in tag - new tab
+" nnoremap <leader>ti :tab split <cr>:exec("tag ".expand("<cword>"))<cr>
+
+" jump in tag - new buffer
+nnoremap <leader>ti :exec("tag ".expand("<cword>"))<cr>
+
+" jump out from tag
+nnoremap <leader>tp :pop<cr>
+
 " nerdtree ("m" to open menu)
 nnoremap <leader>nt :NERDTreeToggle<cr>
 " find the current file in the tree
@@ -46,9 +63,6 @@ nnoremap <leader>nf :NERDTreeFind<cr>
 
 " nerdcommenter
 map <s-c> ,c<space>
-
-" tags
-nnoremap tt :tab split <cr>:exec("tag ".expand("<cword>"))<cr>
 
 " fzf
 nnoremap <leader>ff :FZF<cr>
