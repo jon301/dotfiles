@@ -119,3 +119,5 @@ set formatoptions-=t
 " allow backspacing over autoindent, line breaks, start of insert
 set backspace=indent,eol,start
 
+" use the system clipboard
+set clipboard=unnamed
