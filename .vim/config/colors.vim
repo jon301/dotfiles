@@ -1,6 +1,7 @@
-syntax on
-set t_Co=256
-colorscheme darkburn
+syntax enable
+set t_Co=16
+set background=dark
+colorscheme solarized
 
 " color of the line at the edge of the set textwidth
 hi ColorColumn ctermbg=black guibg=black

@@ -78,4 +78,5 @@ source ~/.vim/config/plugins/supertab.vim
 source ~/.vim/config/plugins/vim-indent-guides.vim
 source ~/.vim/config/plugins/vim-buffergator.vim
 source ~/.vim/config/plugins/vim-airline.vim
+source ~/.vim/config/plugins/vim-colorschemes.vim
 
