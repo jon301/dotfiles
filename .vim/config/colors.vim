@@ -1,5 +1,5 @@
 syntax enable
-set t_Co=16
+set t_Co=256
 set background=dark
 colorscheme solarized
 
