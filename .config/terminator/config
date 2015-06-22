@@ -1,8 +1,4 @@
 [global_config]
-[keybindings]
-  next_tab = <Shift>Right
-  full_screen = <Ctrl><Shift>F11
-  prev_tab = <Shift>Left
 [profiles]
   [[default]]
     use_system_font = False
