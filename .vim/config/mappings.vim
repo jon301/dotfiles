@@ -65,7 +65,7 @@ nnoremap <leader>nf :NERDTreeFind<cr>
 map <s-c> ,c<space>
 
 " fzf
-nnoremap <leader>ff :FZF<cr>
+nnoremap <leader>ff :FZF!<cr>
 
 " pdv
 nnoremap <leader>dc :call pdv#DocumentWithSnip()<CR>
