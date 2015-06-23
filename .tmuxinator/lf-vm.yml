@@ -1,6 +1,7 @@
 # ~/.tmuxinator/lf-vm.yml
 
 name: lf-vm
+root: ~/data/lafourchette-vm
 
 # Optional tmux socket
 # socket_name: foo
@@ -28,17 +29,40 @@ name: lf-vm
 
 windows:
   - portal:
-      root: ~/www/lafourchette-portal
       layout: 77f8,181x42,0,0[181x21,0,0,0,181x10,0,22,4,181x9,0,33{90x9,0,33,5,90x9,91,33,6}]
       panes:
-        - vim
-        - # empty
-        - tail -f app/logs/dev.log
-        - tail -f app/logs/dev.log | grep "api?"
+        - vim:
+            - vagrant ssh
+            - cd ~/www/lafourchette-portal
+            - vim
+        - shell:
+            - sleep 1
+            - vagrant ssh
+            - cd ~/www/lafourchette-portal
+        - logs:
+            - sleep 2
+            - vagrant ssh
+            - cd ~/www/lafourchette-portal
+            - tail -f app/logs/dev.log
+        - api:
+            - sleep 3
+            - vagrant ssh
+            - cd ~/www/lafourchette-portal
+            - tail -f app/logs/dev.log | grep "api?"
   - core:
-      root: ~/www/lafourchette-core
       layout: 83e2,181x42,0,0[181x21,0,0,1,181x10,0,22,5,181x9,0,33,6]
       panes:
-        - vim
-        - # empty
-        - tail -f app/logs/dev.log
+        - vim:
+            - sleep 4
+            - vagrant ssh
+            - cd ~/www/lafourchette-core
+            - vim
+        - shell:
+            - sleep 5
+            - vagrant ssh
+            - cd ~/www/lafourchette-core
+        - logs:
+            - sleep 6
+            - vagrant ssh
+            - cd ~/www/lafourchette-core
+            - tail -f app/logs/dev.log
