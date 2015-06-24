@@ -70,13 +70,6 @@ endif
 " ------------------------------------------------------------
 " Plugin configurations
 
-source ~/.vim/config/plugins/vim-gitgutter.vim
-source ~/.vim/config/plugins/vim-startify.vim
-source ~/.vim/config/plugins/nerdtree.vim
-source ~/.vim/config/plugins/pdv.vim
-source ~/.vim/config/plugins/supertab.vim
-source ~/.vim/config/plugins/vim-indent-guides.vim
-source ~/.vim/config/plugins/vim-buffergator.vim
-source ~/.vim/config/plugins/vim-airline.vim
-source ~/.vim/config/plugins/vim-colorschemes.vim
-
+for fpath in split(globpath('~/.vim/config/plugins/', '*.vim'), '\n')
+  exe 'source' fpath
+endfor
