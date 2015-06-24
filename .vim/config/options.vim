@@ -120,4 +120,4 @@ set formatoptions-=t
 set backspace=indent,eol,start
 
 " use the system clipboard
-set clipboard=unnamedplus
+set clipboard=unnamed,unnamedplus
