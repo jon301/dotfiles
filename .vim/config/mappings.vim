@@ -4,6 +4,11 @@ let mapleader = ","
 " don't use alt keys for menus
 set winaltkeys=no
 
+nnoremap <up> <c-w>5-
+nnoremap <down> <c-w>5+
+nnoremap <left> <c-w>5>
+nnoremap <right> <c-w>5<
+
 " smart way to move between splitted windows
 nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
@@ -25,18 +30,22 @@ nnoremap <leader>nw :set nowrap<cr>
 nnoremap <leader>sw :set wrap<cr>
 
 " make
-" nnoremap <leader>m :!make compile pack<cr>
+" nnoremap <leader>m :!make<cr>
 
 " quick way to recall macro "a"
 nnoremap <f2> @a
 
-" buffers navigation
-" go to next buffer
-nnoremap <leader>n :bn<cr>
-" go to prev buffer
-nnoremap <leader>p :bp<cr>
-" delete current buffer
-nnoremap <leader>q :bd<cr>
+" tabs
+nnoremap <leader>tn :tabnew<cr>
+
+" jump in tag - new tab
+nnoremap <leader>ti :tab split <cr>:exec("tag ".expand("<cword>"))<cr>
+
+" jump in tag - new buffer
+" nnoremap <leader>ti :exec("tag ".expand("<cword>"))<cr>
+
+" jump out from tag
+nnoremap <leader>tp :pop<cr>
 
 " ------------------------------------------------------------
 " Plugins
@@ -46,15 +55,6 @@ nnoremap <leader>gu :GundoToggle<cr>
 
 " tagbar
 nnoremap <leader>tt :TagbarToggle<cr>
-
-" jump in tag - new tab
-" nnoremap <leader>ti :tab split <cr>:exec("tag ".expand("<cword>"))<cr>
-
-" jump in tag - new buffer
-nnoremap <leader>ti :exec("tag ".expand("<cword>"))<cr>
-
-" jump out from tag
-nnoremap <leader>tp :pop<cr>
 
 " nerdtree ("m" to open menu)
 nnoremap <leader>nt :NERDTreeToggle<cr>
@@ -106,3 +106,19 @@ omap / <Plug>(easymotion-tn)
 map  n <Plug>(easymotion-next)
 map  N <Plug>(easymotion-prev)
 
+" splitjoin
+" gS to split a one-liner into multiple lines
+" gJ (with the cursor on the first line of a block) to join a block into a single-line statement.
+
+" vim-bookmarks
+" mm : Add/remove bookmark at current line
+" mi : Add/edit/remove annotation at current line
+" mn : Jump to next bookmark in buffer
+" mp : Jump to previous bookmark in buffer
+" ma : Show all bookmarks (toggle)
+" mc : Clear bookmarks in current buffer only
+" mx : Clear bookmarks in all buffers
+
+" vim-buffergator
+" <leader>to : list tabs
+" <leader>b : list buffers

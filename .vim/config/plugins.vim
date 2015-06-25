@@ -11,25 +11,31 @@ endif
 " plugin list
 call plug#begin()
 Plug 'airblade/vim-gitgutter'
-Plug 'breuckelen/vim-resize'
+Plug 'AndrewRadev/splitjoin.vim'
 Plug 'bling/vim-airline'
 Plug 'chrisbra/NrrwRgn'
 Plug 'csscomb/vim-csscomb'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'elzr/vim-json'
 Plug 'ervandew/supertab'
 Plug 'evidens/vim-twig'
 Plug 'flazz/vim-colorschemes'
 Plug 'gregsexton/gitv'
+Plug 'groenewege/vim-less'
 Plug 'jeetsukumaran/vim-buffergator'
+Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': 'yes \| ./install'}
 Plug 'junegunn/vim-easy-align'
 Plug 'Lokaltog/vim-easymotion'
 Plug 'majutsushi/tagbar'
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
 Plug 'mattn/emmet-vim', {'for': ['html', 'html.twig']}
+Plug 'MattesGroeger/vim-bookmarks'
 Plug 'mhinz/vim-startify'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'nelstrom/vim-visual-star-search'
+Plug 'othree/html5.vim'
+Plug 'pangloss/vim-javascript'
 Plug 'Raimondi/delimitMate'
 Plug 'rking/ag.vim'
 Plug 'scrooloose/syntastic'
