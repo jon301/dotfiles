@@ -29,16 +29,12 @@ root: ~/data/lafourchette-vm
 
 windows:
   - portal:
-      layout: 77f8,181x42,0,0[181x21,0,0,0,181x10,0,22,4,181x9,0,33{90x9,0,33,5,90x9,91,33,6}]
+      layout: 1843,191x53,0,0[191x41,0,0,28,191x11,0,42{95x11,0,42,30,95x11,96,42,33}]
       panes:
         - vim:
             - vagrant ssh
             - cd ~/www/lafourchette-portal
             - vim
-        - shell:
-            - sleep 1
-            - vagrant ssh
-            - cd ~/www/lafourchette-portal
         - logs:
             - sleep 2
             - vagrant ssh
@@ -50,17 +46,13 @@ windows:
             - cd ~/www/lafourchette-portal
             - tail -f app/logs/dev.log | grep "api?"
   - core:
-      layout: 83e2,181x42,0,0[181x21,0,0,1,181x10,0,22,5,181x9,0,33,6]
+      layout: 2fe7,191x53,0,0[191x40,0,0,20,191x12,0,41,25]
       panes:
         - vim:
             - sleep 4
             - vagrant ssh
             - cd ~/www/lafourchette-core
             - vim
-        - shell:
-            - sleep 5
-            - vagrant ssh
-            - cd ~/www/lafourchette-core
         - logs:
             - sleep 6
             - vagrant ssh
