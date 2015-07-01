@@ -19,7 +19,7 @@ root: ~/data/lafourchette-vm
 # tmux_command: byobu
 
 # Specifies (by name or index) which window will be selected on project startup. If not set, the first window is used.
-# startup_window: logs
+startup_window: portal
 
 # Controls whether the tmux session should be attached to automatically. Defaults to true.
 # attach: false
@@ -28,6 +28,7 @@ root: ~/data/lafourchette-vm
 # post: tmux -CC attach -t lf
 
 windows:
+  - local: # basic shell
   - portal:
       layout: 1843,191x53,0,0[191x41,0,0,28,191x11,0,42{95x11,0,42,30,95x11,96,42,33}]
       panes:

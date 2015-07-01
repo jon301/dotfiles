@@ -47,6 +47,9 @@ nnoremap <leader>ti :tab split <cr>:exec("tag ".expand("<cword>"))<cr>
 " jump out from tag
 nnoremap <leader>tp :pop<cr>
 
+" format json using python json.tool
+map <leader>j !python -m json.tool<CR>
+
 " ------------------------------------------------------------
 " Plugins
 
