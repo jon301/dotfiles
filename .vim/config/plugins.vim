@@ -21,6 +21,7 @@ Plug 'evidens/vim-twig'
 Plug 'flazz/vim-colorschemes'
 Plug 'gregsexton/gitv'
 Plug 'groenewege/vim-less'
+Plug 'heavenshell/vim-jsdoc'
 Plug 'jeetsukumaran/vim-buffergator'
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': 'yes \| ./install'}

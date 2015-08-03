@@ -71,7 +71,7 @@ map <s-c> ,c<space>
 nnoremap <leader>ff :FZF!<cr>
 
 " pdv
-nnoremap <leader>dc :call pdv#DocumentWithSnip()<CR>
+nnoremap <leader>dc :JsDoc<CR>
 
 " gitgutter
 nmap <leader>nh <Plug>GitGutterNextHunk

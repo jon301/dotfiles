@@ -1,6 +1,6 @@
 [user]
         name = Jonathan Trang
-        email = jon301@gmail.com
+        email = jtrang@lafourchette.com
 [alias]
         br = branch -v
         ba = branch -va
@@ -11,7 +11,12 @@
         nlog = log --name-status --decorate
         ls = log --pretty=online --abbrev-commit --decorate
         ls = log --pretty=online --abbrev-commit --decorate --graph
+        ctags = !.git/hooks/ctags
 [color]
         ui = auto
 [merge]
         summary = true
+[init]
+        templatedir = ~/.git_template
+[core]
+        editor = vim
