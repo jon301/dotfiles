@@ -50,6 +50,9 @@ nnoremap <leader>tp :pop<cr>
 " format json using python json.tool
 map <leader>j !python -m json.tool<CR>
 
+" execute csscomb on F5 on stylesheets only
+autocmd FileType scss,less,css nnoremap <buffer> <F5> :call CSScomb()<CR>
+
 " ------------------------------------------------------------
 " Plugins
 

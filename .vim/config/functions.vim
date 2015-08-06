@@ -8,3 +8,9 @@ func! ToggleActiveMouse()
     echo "Mouse enabled"
   endif
 endf
+
+" try to execute csscomb
+func! CSScomb()
+  execute "silent !csscomb -c ~/.csscomb.json " . expand('%')
+  redraw!
+endf
