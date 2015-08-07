@@ -23,7 +23,6 @@ Plug 'groenewege/vim-less'
 Plug 'heavenshell/vim-jsdoc'
 Plug 'jeetsukumaran/vim-buffergator'
 Plug 'jiangmiao/auto-pairs'
-Plug 'jon301/vim-move'
 Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': 'yes \| ./install'}
 Plug 'junegunn/vim-easy-align'
 Plug 'Lokaltog/vim-easymotion'

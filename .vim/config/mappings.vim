@@ -4,6 +4,7 @@ let mapleader = ","
 " don't use alt keys for menus
 set winaltkeys=no
 
+" resize windows with arrows
 nnoremap <up> <c-w>5-
 nnoremap <down> <c-w>5+
 nnoremap <left> <c-w>5>
@@ -19,7 +20,7 @@ nnoremap <c-w>k <nop>
 nnoremap <c-w>h <nop>
 nnoremap <c-w>l <nop>
 
-" switch next window
+" switch next window with tab
 nnoremap <tab> <c-w>w
 
 " toggle mouse on or off
@@ -52,6 +53,12 @@ map <leader>j !python -m json.tool<CR>
 
 " execute csscomb on F5 on stylesheets only
 autocmd FileType scss,less,css nnoremap <buffer> <F5> :call CSScomb()<CR>
+
+" indent selected block with hjkl
+xmap <silent> <c-k> :move '>+1<Cr>gv=gv
+xmap <silent> <c-j> :move '<-2<Cr>gv=gv
+xmap <silent> <c-h> <gv^
+xmap <silent> <c-l> >gv^
 
 " ------------------------------------------------------------
 " Plugins
@@ -128,3 +135,4 @@ map  N <Plug>(easymotion-prev)
 " vim-buffergator
 " <leader>to : list tabs
 " <leader>b : list buffers
+
