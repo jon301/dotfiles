@@ -28,6 +28,7 @@ Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': 'yes \| ./install'}
 Plug 'junegunn/vim-easy-align'
 Plug 'Lokaltog/vim-easymotion'
 Plug 'majutsushi/tagbar'
+Plug 'maksimr/vim-jsbeautify'
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
 Plug 'mattn/emmet-vim', {'for': ['html', 'html.twig']}
 Plug 'MattesGroeger/vim-bookmarks'
