@@ -24,3 +24,8 @@ let g:startify_custom_header = [
     \ '',
     \ '',
     \ ]
+
+" prevent opening file in a split window when using NerdTree or CtrlP
+" https://github.com/mhinz/vim-startify/issues/6
+autocmd FileType startify setlocal buftype=
+
