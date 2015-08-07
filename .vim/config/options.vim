@@ -121,3 +121,6 @@ set backspace=indent,eol,start
 
 " use the system clipboard
 set clipboard=unnamed,unnamedplus
+
+" controls the behavior when switching between buffers
+set switchbuf+=usetab,newtab
