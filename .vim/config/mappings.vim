@@ -1,5 +1,6 @@
 " allow extra key combinations. e.g. map <leader>tn :tabnew<cr>
-let mapleader = ","
+" let mapleader = ","
+let mapleader = "\<space>"
 
 " don't use alt keys for menus
 set winaltkeys=no
