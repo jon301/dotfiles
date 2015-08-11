@@ -56,8 +56,8 @@ map <leader>j !python -m json.tool<CR>
 autocmd FileType scss,less,css nnoremap <buffer> <F5> :call CSScomb()<CR>
 
 " indent selected block with hjkl
-xmap <silent> <c-k> :move '>+1<Cr>gv=gv
-xmap <silent> <c-j> :move '<-2<Cr>gv=gv
+xmap <silent> <c-j> :move '>+1<Cr>gv=gv
+xmap <silent> <c-k> :move '<-2<Cr>gv=gv
 xmap <silent> <c-h> <gv^
 xmap <silent> <c-l> >gv^
 
