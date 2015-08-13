@@ -25,6 +25,7 @@ CONTENTS
        5.11 Indent guides ................................... |myhelp-plugin-ig|
        5.12 Bookmarks ................................ |myhelp-plugin-bookmarks|
        5.13 Buffergator ............................ |myhelp-plugin-buffergator|
+       5.14 Grep .......................................... |myhelp-plugin-grep|
 
 ===============================================================================
 
@@ -172,4 +173,9 @@ Space bar is the leader key.
 
     - <leader>b
       List buffers
+
+5.14 Grep                                                   *myhelp-plugin-grep*
+
+    - gr
+      Grep the word under cursor or the current selection
 

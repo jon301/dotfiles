@@ -8,6 +8,7 @@ myhelp-plugin-easyalign	myhelp.txt	/*myhelp-plugin-easyalign*
 myhelp-plugin-fzf	myhelp.txt	/*myhelp-plugin-fzf*
 myhelp-plugin-gitgutter	myhelp.txt	/*myhelp-plugin-gitgutter*
 myhelp-plugin-gitv	myhelp.txt	/*myhelp-plugin-gitv*
+myhelp-plugin-grep	myhelp.txt	/*myhelp-plugin-grep*
 myhelp-plugin-gundo	myhelp.txt	/*myhelp-plugin-gundo*
 myhelp-plugin-ig	myhelp.txt	/*myhelp-plugin-ig*
 myhelp-plugin-jsdoc	myhelp.txt	/*myhelp-plugin-jsdoc*
