@@ -81,7 +81,7 @@ map <s-c> ,c<space>
 " fzf
 nnoremap <leader>ff :FZF!<cr>
 
-" pdv
+" jsdoc
 nnoremap <leader>dc :JsDoc<CR>
 
 " gitgutter
