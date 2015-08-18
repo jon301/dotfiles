@@ -38,7 +38,7 @@ nnoremap <leader>sw :set wrap<cr>
 nnoremap <f2> @a
 
 " tabs
-nnoremap <leader>tn :tabnew<cr>
+nnoremap <leader>tn :tabnew<cr>:NERDTreeToggle<cr><c-w>l:Startify<cr>
 
 " jump in tag - new tab
 nnoremap <leader>ti :tab split <cr>:exec("tag ".expand("<cword>"))<cr>
