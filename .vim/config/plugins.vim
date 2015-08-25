@@ -11,6 +11,7 @@ endif
 " plugin list
 call plug#begin()
 Plug 'airblade/vim-gitgutter'
+Plug 'ap/vim-css-color'
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'bling/vim-airline'
 Plug 'chrisbra/NrrwRgn'
