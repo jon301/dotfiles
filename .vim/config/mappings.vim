@@ -109,8 +109,7 @@ nnoremap <leader>st :Startify<cr>
 
 " vim-easymotion
 " 2-character search motion
-nmap s <Plug>(easymotion-s2)
-nmap t <Plug>(easymotion-t2)
+nmap s <Plug>(easymotion-s)
 " n-character search motion
 map  / <Plug>(easymotion-sn)
 omap / <Plug>(easymotion-tn)
@@ -119,6 +118,9 @@ omap / <Plug>(easymotion-tn)
 " different highlight method and have some other features )
 map  n <Plug>(easymotion-next)
 map  N <Plug>(easymotion-prev)
+" JK motions: Line motions
+map <leader>j <Plug>(easymotion-j)
+map <leader>k <Plug>(easymotion-k)
 
 " splitjoin
 " gS to split a one-liner into multiple lines
