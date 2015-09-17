@@ -46,6 +46,7 @@ Plug 'Shougo/neomru.vim'
 Plug 'sjl/gundo.vim', {'on': 'GundoToggle'}
 Plug 'taiansu/nerdtree-ag'
 Plug 'teoljungberg/vim-grep'
+Plug 'terryma/vim-expand-region'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tobyS/pdv'
 Plug 'tobyS/vmustache'

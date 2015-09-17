@@ -122,6 +122,9 @@ map  N <Plug>(easymotion-prev)
 map <leader>j <Plug>(easymotion-j)
 map <leader>k <Plug>(easymotion-k)
 
+" vim-expand-region
+vmap v <Plug>(expand_region_expand)
+
 " splitjoin
 " gS to split a one-liner into multiple lines
 " gJ (with the cursor on the first line of a block) to join a block into a single-line statement.
