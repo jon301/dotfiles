@@ -26,6 +26,7 @@ CONTENTS
        5.12 Bookmarks ................................ |myhelp-plugin-bookmarks|
        5.13 Buffergator ............................ |myhelp-plugin-buffergator|
        5.14 Grep .......................................... |myhelp-plugin-grep|
+       5.15 NrrwRgn .................................... |myhelp-plugin-nrrwrgn|
 
 ===============================================================================
 
@@ -101,7 +102,7 @@ Space bar is the leader key.
 
 5.4 NERDCommenter                                  *myhelp-plugin-nerdcommenter*
 
-    - <s-c>
+    - <leader>c<space>
       Comment current line or the current selection
 
 5.5 FZF                                                      *myhelp-plugin-fzf*
@@ -179,3 +180,7 @@ Space bar is the leader key.
     - gr
       Grep the word under cursor or the current selection
 
+5.15 NrrwRgn                                             *myhelp-plugin-nrrwrgn*
+
+    - <leader>nr
+      Open the current visual selection in a new narrowed window
