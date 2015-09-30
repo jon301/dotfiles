@@ -46,6 +46,7 @@ Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'Shougo/neomru.vim'
+Plug 'Shougo/neocomplete.vim'
 Plug 'sjl/gundo.vim', {'on': 'GundoToggle'}
 Plug 'taiansu/nerdtree-ag'
 Plug 'teoljungberg/vim-grep'
