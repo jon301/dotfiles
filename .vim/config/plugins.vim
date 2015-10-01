@@ -64,6 +64,7 @@ Plug 'tpope/vim-surround'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'unblevable/quick-scope'
 Plug 'vim-scripts/matchit.zip'
+Plug 'vim-scripts/DrawIt'
 Plug 'xolox/vim-colorscheme-switcher'
 Plug 'xolox/vim-misc'
 
