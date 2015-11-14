@@ -27,6 +27,8 @@ CONTENTS
        5.13 Buffergator ............................ |myhelp-plugin-buffergator|
        5.14 Grep .......................................... |myhelp-plugin-grep|
        5.15 NrrwRgn .................................... |myhelp-plugin-nrrwrgn|
+       5.16 NrrwRgn ............................... |myhelp-plugin-rest-console|
+       5.17 FNR ............................................ |myhelp-plugin-fnr|
 
 ===============================================================================
 
@@ -184,3 +186,23 @@ Space bar is the leader key.
 
     - <leader>nr
       Open the current visual selection in a new narrowed window
+
+5.16 Rest Console                                   *myhelp-plugin-rest-console*
+
+    - :set ft=rest
+    Set the buffer filetype to rest by
+
+    - Example :
+    http://www.google.fr
+    GET /search?q=hello+world
+
+    - <c-j>
+    Trigger key
+
+5.17 FNR .................................................... *myhelp-plugin-fnr*
+
+    - <leader>r
+    Substitution in the selected range
+
+    - <leader>R
+    Substitution of the selected string in the entire document

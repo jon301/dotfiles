@@ -4,3 +4,5 @@
 .vim/swap/
 .vim/backup/
 .vim/undofiles/
+.ssh/id_rsa*
+.ssh/known_hosts
