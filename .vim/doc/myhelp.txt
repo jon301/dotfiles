@@ -29,6 +29,8 @@ CONTENTS
        5.15 NrrwRgn .................................... |myhelp-plugin-nrrwrgn|
        5.16 NrrwRgn ............................... |myhelp-plugin-rest-console|
        5.17 FNR ............................................ |myhelp-plugin-fnr|
+    6. Tips ...................................................... |myhelp-tips|
+       6.1  Multiple copying .................... |myhelp-tips-multiple-copying|
 
 ===============================================================================
 
@@ -199,10 +201,19 @@ Space bar is the leader key.
     - <c-j>
     Trigger key
 
-5.17 FNR .................................................... *myhelp-plugin-fnr*
+5.17 FNR                                                     *myhelp-plugin-fnr*
 
     - <leader>r
     Substitution in the selected range
 
     - <leader>R
     Substitution of the selected string in the entire document
+
+6. Tips                                                            *myhelp-tips*
+
+6.1 Multiple copying                              *myhelp-tips-multiple-copying*
+
+    - select text "hello"
+    - type "ay to copy "hello" into the a register
+    - type "ap to paste "hello"
+
