@@ -27,7 +27,7 @@ CONTENTS
        5.13 Buffergator ............................ |myhelp-plugin-buffergator|
        5.14 Grep .......................................... |myhelp-plugin-grep|
        5.15 NrrwRgn .................................... |myhelp-plugin-nrrwrgn|
-       5.16 NrrwRgn ............................... |myhelp-plugin-rest-console|
+       5.16 Rest Console .......................... |myhelp-plugin-rest-console|
        5.17 FNR ............................................ |myhelp-plugin-fnr|
     6. Tips ...................................................... |myhelp-tips|
        6.1  Multiple copying .................... |myhelp-tips-multiple-copying|
