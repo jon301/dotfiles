@@ -136,3 +136,5 @@ export NVM_DIR="/Users/jon301/.nvm"
 
 [ -f ~/.fzf.bash  ] && source ~/.fzf.bash
 
+export EDITOR="vim"
+
