@@ -31,6 +31,7 @@ CONTENTS
        5.17 FNR ............................................ |myhelp-plugin-fnr|
     6. Tips ...................................................... |myhelp-tips|
        6.1  Multiple copying .................... |myhelp-tips-multiple-copying|
+    7  Useful resources      ......................... |myhelp-useful-resources|
 
 ===============================================================================
 
@@ -216,4 +217,8 @@ Space bar is the leader key.
     - select text "hello"
     - type "ay to copy "hello" into the a register
     - type "ap to paste "hello"
+
+7. Useful resources                                    *myhelp-useful-resources*
+
+http://bencrowder.net/files/vim-fu/
 
