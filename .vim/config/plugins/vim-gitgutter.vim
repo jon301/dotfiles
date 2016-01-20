@@ -5,3 +5,6 @@ autocmd BufEnter * execute 'sign place 9999 line=1 name=dummy buffer=' . bufnr('
 " trade a little accuracy for speed
 let g:gitgutter_realtime = 0
 let g:gitgutter_eager = 0
+
+" disable all gitgutter mappings
+let g:gitgutter_map_keys = 0

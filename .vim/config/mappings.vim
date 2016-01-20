@@ -50,7 +50,7 @@ nnoremap <leader>ti :tab split <cr>:exec("tag ".expand("<cword>"))<cr>
 nnoremap <leader>tp :pop<cr>
 
 " format json using python json.tool
-map <leader>j !python -m json.tool<CR>
+map <leader>fj !python -m json.tool<CR>
 
 " execute csscomb on F5 on stylesheets only
 autocmd FileType scss,less,css nnoremap <buffer> <F5> :call CSScomb()<CR>
@@ -77,6 +77,9 @@ nnoremap <leader>nf :NERDTreeFind<cr>
 
 " nerdcommenter
 map <s-c> ,c<space>
+
+" nerdtree
+nnoremap <silent> <leader>nn :NERDTreeFocus<cr>
 
 " fzf
 nnoremap <leader>ff :FZF!<cr>
@@ -109,18 +112,18 @@ nnoremap <leader>st :Startify<cr>
 
 " vim-easymotion
 " 2-character search motion
+map  <leader>f <Plug>(easymotion-bd-f)
+
 nmap s <Plug>(easymotion-s)
-" n-character search motion
-map  / <Plug>(easymotion-sn)
-omap / <Plug>(easymotion-tn)
-" These `n` & `N` mappings are options. You do not have to map `n` & `N` to EasyMotion.
-" Without these mappings, `n` & `N` works fine. (These mappings just provide
-" different highlight method and have some other features )
-map  n <Plug>(easymotion-next)
-map  N <Plug>(easymotion-prev)
+
 " JK motions: Line motions
+map <leader>l <Plug>(easymotion-lineforward)
 map <leader>j <Plug>(easymotion-j)
 map <leader>k <Plug>(easymotion-k)
+map <leader>h <Plug>(easymotion-linebackward)
+
+map <leader><leader>j <Plug>(easymotion-w)
+map <leader><leader>k <Plug>(easymotion-b)
 
 " vim-expand-region
 vmap v <Plug>(expand_region_expand)
