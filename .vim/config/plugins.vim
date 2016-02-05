@@ -72,6 +72,7 @@ Plug 'vim-scripts/DrawIt'
 Plug 'vimwiki/vimwiki'
 Plug 'xolox/vim-colorscheme-switcher'
 Plug 'xolox/vim-misc'
+Plug 'fatih/vim-go'
 
 " code snippets
 Plug 'MarcWeber/vim-addon-mw-utils'
