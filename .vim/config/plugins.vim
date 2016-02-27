@@ -35,6 +35,7 @@ Plug 'junegunn/vim-fnr'
 Plug 'junegunn/vim-oblique'
 Plug 'junegunn/gv.vim'
 Plug 'junegunn/vim-xmark', { 'do': 'make' }
+Plug 'leafgarland/typescript-vim'
 Plug 'Lokaltog/vim-easymotion'
 Plug 'majutsushi/tagbar'
 Plug 'maksimr/vim-jsbeautify'
@@ -48,6 +49,7 @@ Plug 'othree/html5.vim'
 Plug 'Olical/vim-enmasse'
 Plug 'pangloss/vim-javascript'
 Plug 'plasticboy/vim-markdown', { 'as': 'vim-markdown-plasticboy' }
+Plug 'Quramy/tsuquyomi', {'do': 'npm install'}
 Plug 'Raimondi/delimitMate'
 Plug 'rking/ag.vim'
 Plug 'scrooloose/syntastic'
@@ -55,6 +57,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'Shougo/neomru.vim'
 Plug 'Shougo/neocomplete.vim'
+Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'sjl/gundo.vim', {'on': 'GundoToggle'}
 Plug 'taiansu/nerdtree-ag'
 Plug 'teoljungberg/vim-grep'

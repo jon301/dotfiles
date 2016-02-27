@@ -61,6 +61,10 @@ xmap <silent> <c-k> :move '<-2<Cr>gv=gv
 xmap <silent> <c-h> <gv^
 xmap <silent> <c-l> >gv^
 
+" navigate inside popup menu with <c-j> and <c-k>
+inoremap <expr> <C-k> pumvisible() ? "\<C-P>" : "\<C-k>"
+inoremap <expr> <C-j> pumvisible() ? "\<C-N>" : "\<C-j>"
+
 " ------------------------------------------------------------
 " Plugins
 
