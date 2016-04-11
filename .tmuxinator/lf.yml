@@ -1,6 +1,6 @@
-# ~/.tmuxinator/lf-vm.yml
+# ~/.tmuxinator/lf.yml
 
-name: lf-vm
+name: lf
 root: ~/data/lafourchette-vm
 
 # Optional tmux socket
@@ -35,12 +35,11 @@ windows:
         - vim:
             - vagrant ssh
             - cd ~/www/lafourchette-portal
-            - vim
         - logs:
             - sleep 2
             - vagrant ssh
             - cd ~/www/lafourchette-portal
-            - tail -f app/logs/dev.log
+            - tail -f app/logs/dev.log | grep "api?"
         - api:
             - sleep 3
             - vagrant ssh
@@ -53,9 +52,10 @@ windows:
             - sleep 4
             - vagrant ssh
             - cd ~/www/lafourchette-core
-            - vim
         - logs:
             - sleep 6
             - vagrant ssh
             - cd ~/www/lafourchette-core
             - tail -f app/logs/dev.log
+  - integ4:
+      - ssh vagrant@status.integ4.lafourchette.io
