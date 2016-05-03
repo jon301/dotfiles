@@ -11,13 +11,13 @@ endif
 " plugin list
 call plug#begin()
 Plug 'airblade/vim-gitgutter'
+Plug 'aquach/vim-http-client'
 Plug 'ap/vim-css-color'
 Plug 'AndrewRadev/linediff.vim'
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'chrisbra/NrrwRgn'
-Plug 'diepm/vim-rest-console'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'ervandew/supertab'
 Plug 'evidens/vim-twig'

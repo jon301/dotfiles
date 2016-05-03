@@ -62,8 +62,8 @@ xmap <silent> <c-h> <gv^
 xmap <silent> <c-l> >gv^
 
 " navigate inside popup menu with <c-j> and <c-k>
-inoremap <expr> <C-k> pumvisible() ? "\<C-P>" : "\<C-k>"
-inoremap <expr> <C-j> pumvisible() ? "\<C-N>" : "\<C-j>"
+inoremap <expr> <c-k> pumvisible() ? "\<c-p>" : "\<c-k>"
+inoremap <expr> <c-j> pumvisible() ? "\<c-n>" : "\<c-j>"
 
 " ------------------------------------------------------------
 " Plugins
@@ -148,4 +148,7 @@ vmap v <Plug>(expand_region_expand)
 " vim-buffergator
 " <leader>to : list tabs
 " <leader>b : list buffers
+
+" vim-http-client
+nnoremap <leader><leader>h :HTTPClientDoRequest<cr>
 
