@@ -43,6 +43,7 @@ Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
 Plug 'mattn/emmet-vim', {'for': ['html', 'html.twig']}
 Plug 'MattesGroeger/vim-bookmarks'
 Plug 'mhinz/vim-startify'
+Plug 'mzlogin/vim-markdown-toc'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'nelstrom/vim-visual-star-search'
 Plug 'othree/html5.vim'
