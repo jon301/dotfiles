@@ -151,4 +151,5 @@ vmap v <Plug>(expand_region_expand)
 
 " vim-http-client
 nnoremap <leader><leader>h :HTTPClientDoRequest<cr>
+vmap <leader><leader>h :QuickRun bash<cr>
 
