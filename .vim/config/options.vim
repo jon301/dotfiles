@@ -124,3 +124,6 @@ set clipboard=unnamed,unnamedplus
 
 " controls the behavior when switching between buffers
 set switchbuf+=usetab,newtab
+
+" all folds are always open
+set nofoldenable
