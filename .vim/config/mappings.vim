@@ -38,7 +38,7 @@ nnoremap <leader>sw :set wrap<cr>
 nnoremap <f2> @a
 
 " tabs
-nnoremap <leader>tn :tabnew<cr>:NERDTreeToggle<cr><c-w>l:Startify<cr>
+nnoremap <leader>tn :tabnew<cr>:NERDTreeToggle<cr><c-w>l
 
 " jump in tag - new tab
 nnoremap <leader>ti :tab split <cr>:exec("tag ".expand("<cword>"))<cr>
@@ -153,3 +153,7 @@ vmap v <Plug>(expand_region_expand)
 nnoremap <leader><leader>h :HTTPClientDoRequest<cr>
 vmap <leader><leader>h :QuickRun bash<cr>
 
+" vim-grepper
+nnoremap <leader>gr :Grepper -tool git -noswitch<cr>
+nmap gr <plug>(GrepperOperator)
+xmap gr <plug>(GrepperOperator)
