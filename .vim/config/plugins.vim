@@ -43,7 +43,6 @@ Plug 'maksimr/vim-jsbeautify'
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
 Plug 'mattn/emmet-vim', {'for': ['html', 'html.twig']}
 Plug 'MattesGroeger/vim-bookmarks'
-Plug 'mhinz/vim-grepper'
 Plug 'mhinz/vim-startify'
 Plug 'mzlogin/vim-markdown-toc'
 Plug 'nathanaelkane/vim-indent-guides'
@@ -63,13 +62,14 @@ Plug 'Shougo/neocomplete.vim'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'sjl/gundo.vim', {'on': 'GundoToggle'}
 Plug 'taiansu/nerdtree-ag'
+Plug 'teoljungberg/vim-grep'
 Plug 'terryma/vim-expand-region'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'thinca/vim-quickrun'
 Plug 'tobyS/pdv'
 Plug 'tobyS/vmustache'
 Plug 'tpope/vim-abolish'
-Plug 'tpope/vim-dispatch'
+"Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-markdown', { 'as': 'vim-markdown-tpope' }
 Plug 'tpope/vim-repeat'

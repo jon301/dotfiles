@@ -153,7 +153,5 @@ vmap v <Plug>(expand_region_expand)
 nnoremap <leader><leader>h :HTTPClientDoRequest<cr>
 vmap <leader><leader>h :QuickRun bash<cr>
 
-" vim-grepper
-nnoremap <leader>gr :Grepper -tool git -noswitch<cr>
-nmap gr <plug>(GrepperOperator)
-xmap gr <plug>(GrepperOperator)
+" vim-grep
+cabbrev Grep Grep!
