@@ -29,6 +29,8 @@ CONTENTS
        5.15 NrrwRgn .................................... |myhelp-plugin-nrrwrgn|
        5.16 Rest Console .......................... |myhelp-plugin-rest-console|
        5.17 FNR ............................................ |myhelp-plugin-fnr|
+       5.18 Emmet ........................................ |myhelp-plugin-emmet|
+       5.19 Surround .................................. |myhelp-plugin-surround|
     6. Tips ...................................................... |myhelp-tips|
        6.1  Multiple copying .................... |myhelp-tips-multiple-copying|
     7  Useful resources      ......................... |myhelp-useful-resources|
@@ -198,7 +200,7 @@ Space bar is the leader key.
 5.16 Rest Console                                   *myhelp-plugin-rest-console*
 
     - :set ft=rest
-    Set the buffer filetype to rest by
+    Set the buffer filetype to rest
 
     - Example :
     http://www.google.fr
@@ -214,6 +216,22 @@ Space bar is the leader key.
 
     - <leader>R
     Substitution of the selected string in the entire document
+
+5.18 Emmet                                                 *myhelp-plugin-emmet*
+
+    - set ft=html
+    Set the buffer filetype to html
+
+    - Example :
+    .toto[style="display: none" data-titi=toto]
+
+    - <c-y>,
+    Trigger the snippet
+
+5.19 Surround                                           *myhelp-plugin-surround*
+
+    - Select a text with V followed by S<p class="important">
+    Let the magic happen
 
 6. Tips                                                            *myhelp-tips*
 

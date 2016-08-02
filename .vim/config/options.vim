@@ -127,3 +127,6 @@ set switchbuf+=usetab,newtab
 
 " all folds are always open
 set nofoldenable
+
+" always vertical diff
+set diffopt=vertical
