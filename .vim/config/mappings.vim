@@ -154,4 +154,5 @@ nnoremap <leader><leader>h :HTTPClientDoRequest<cr>
 vmap <leader><leader>h :QuickRun bash<cr>
 
 " vim-grep
+" prevent grep to open the first file automatically
 cabbrev Grep Grep!

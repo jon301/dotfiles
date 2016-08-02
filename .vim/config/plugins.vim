@@ -69,7 +69,7 @@ Plug 'thinca/vim-quickrun'
 Plug 'tobyS/pdv'
 Plug 'tobyS/vmustache'
 Plug 'tpope/vim-abolish'
-"Plug 'tpope/vim-dispatch'
+"Plug 'tpope/vim-dispatch' " Commented out, conflicts with vim-grep & tmux
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-markdown', { 'as': 'vim-markdown-tpope' }
 Plug 'tpope/vim-repeat'

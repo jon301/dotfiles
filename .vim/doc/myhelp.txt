@@ -184,6 +184,11 @@ Space bar is the leader key.
 
     - gr
       Grep the word under cursor or the current selection
+      Search in the whole project
+
+    - gl
+      Grep the word under cursor or the current selection
+      Search in the current file
 
 5.15 NrrwRgn                                             *myhelp-plugin-nrrwrgn*
 
