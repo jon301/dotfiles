@@ -31,6 +31,7 @@ CONTENTS
        5.17 FNR ............................................ |myhelp-plugin-fnr|
        5.18 Emmet ........................................ |myhelp-plugin-emmet|
        5.19 Surround .................................. |myhelp-plugin-surround|
+       5.20 Magit ........................................ |myhelp-plugin-magit|
     6. Tips ...................................................... |myhelp-tips|
        6.1  Multiple copying .................... |myhelp-tips-multiple-copying|
     7  Useful resources      ......................... |myhelp-useful-resources|
@@ -232,6 +233,38 @@ Space bar is the leader key.
 
     - Select a text with V followed by S<p class="important">
     Let the magic happen
+
+5.20 Magit                                                 *myhelp-plugin-magit*
+
+    - :Magit
+    Open magit buffer
+
+    - N / P
+    Jump to next / previous hunk
+
+    - S
+    Toggle hunk at current mouse position to stage/unstage changes
+
+    - F
+    Toggle file at current mouse position to stage/unstage changes
+
+    - CC
+    Commit changes. Type your commit message then type CC again to submit
+
+    - DDD
+    Discard hunk
+
+    - E
+    Open file containing the hunk at current mouse position
+
+    - R
+    Refresh magit buffer
+
+    - q
+    Close magit buffer
+
+    - ?
+    Toggle magit help
 
 6. Tips                                                            *myhelp-tips*
 
