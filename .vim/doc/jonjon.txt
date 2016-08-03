@@ -38,6 +38,7 @@ CONTENTS
        5.20 Magit ........................................ |jonjon-plugin-magit|
        5.21 ShowHide .................................. |jonjon-plugin-showhide|
        5.22 Dash .......................................... |jonjon-plugin-dash|
+       5.23 SplitJoin ................................ |jonjon-plugin-splitjoin|
     6. Tips ...................................................... |jonjon-tips|
        6.1  Multiple copying .................... |jonjon-tips-multiple-copying|
     7  Useful resources .............................. |jonjon-useful-resources|
@@ -318,6 +319,14 @@ Space bar is the leader key.
 
     - <leader>dg
     Searches for the word under the cursor in the all docsets
+
+5.23 SplitJoin                                         *jonjon-plugin-splitjoin*
+
+    - gS
+    split a one-liner into multiple lines
+
+    - gJ
+    With the cursor on the first line of a block, join a block into a single-line statement
 
 6. Tips                                                            *jonjon-tips*
 

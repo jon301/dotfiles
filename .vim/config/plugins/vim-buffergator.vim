@@ -11,4 +11,4 @@ let g:buffergator_viewport_split_policy = "B"
 "   filepath  : display full buffer filepath
 "   bufname   : display buffer name
 "   parentdir : display first level parent dirname
-let g:buffergator_display_regime = "filepath"
+let g:buffergator_display_regime = "bufname"
