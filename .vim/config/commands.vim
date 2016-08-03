@@ -1,3 +1,8 @@
+" custom file types
+autocmd BufNewFile,BufRead *.ejs set filetype=html
+autocmd BufNewFile,BufRead *.jsx set filetype=javascript.jsx
+autocmd BufNewFile,BufRead *.html.twig set filetype=html
+
 " show cursor line only on the current window
 autocmd WinEnter * set cursorline
 autocmd WinLeave * set nocursorline
