@@ -39,6 +39,7 @@ CONTENTS
        5.21 ShowHide .................................. |jonjon-plugin-showhide|
        5.22 Dash .......................................... |jonjon-plugin-dash|
        5.23 SplitJoin ................................ |jonjon-plugin-splitjoin|
+       5.24 Motions .................................... |jonjon-plugin-motions|
     6. Tips ...................................................... |jonjon-tips|
        6.1  Multiple copying .................... |jonjon-tips-multiple-copying|
     7  Useful resources .............................. |jonjon-useful-resources|
@@ -327,6 +328,32 @@ Space bar is the leader key.
 
     - gJ
     With the cursor on the first line of a block, join a block into a single-line statement
+
+5.24 Motions                                             *jonjon-plugin-motions*
+
+    - <leader>k
+    Trigger line motions on all lines above the cursor
+
+    - <leader><leader>k
+    Trigger word motions on all words above the cursor
+
+    - <leader>j
+    Trigger line motions on all lines below the cursor
+
+    - <leader><leader>j
+    Trigger word motions on all words below the cursor
+
+    - <leader>l
+    Trigger word motions on all words after the cursor on the same line
+
+    - <leader>h
+    Trigger word motions on all words before the cursor on the same line
+
+    - <leader>f<CHAR>
+    Trigger letter motions on all letters in the document
+
+    - f / F
+    Trigger letter motions on letters after / before the cursor
 
 6. Tips                                                            *jonjon-tips*
 
