@@ -40,6 +40,7 @@ CONTENTS
        5.22 Dash .......................................... |jonjon-plugin-dash|
        5.23 SplitJoin ................................ |jonjon-plugin-splitjoin|
        5.24 Motions .................................... |jonjon-plugin-motions|
+       5.25 Extradite ................................ |jonjon-plugin-extradite|
     6. Tips ...................................................... |jonjon-tips|
        6.1  Multiple copying .................... |jonjon-tips-multiple-copying|
     7  Useful resources .............................. |jonjon-useful-resources|
@@ -354,6 +355,26 @@ Space bar is the leader key.
 
     - f / F
     Trigger letter motions on letters after / before the cursor
+
+5.25 Extradite                                         *jonjon-plugin-extradite*
+
+    - <leader>ex
+    Toggle Extradite buffer (Git time lapse)
+
+    - <cr>
+    Edits the revision on the current line in a fugitive-buffer
+
+    - oh, ov, and ot
+    Edit the revision under the cursor in a new horizontal split / vertical split / tab respectively
+
+    - dh, dv, and dt
+    Diff the current file against the revision under the cursor in a new horizontal split / vertical split / tab respectively
+
+   - t
+   Toggles the visibility of the file diff buffer
+
+   - q
+   Closes the Extradite buffer
 
 6. Tips                                                            *jonjon-tips*
 

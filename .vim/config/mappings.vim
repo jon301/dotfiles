@@ -160,3 +160,6 @@ cabbrev Grep Grep!
 " dash.vim
 nmap <silent> <leader>df <Plug>DashSearch
 nmap <silent> <leader>dg <Plug>DashGlobalSearch
+
+" extradite
+nnoremap <leader>ex :Extradite!<cr>
