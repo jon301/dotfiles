@@ -65,6 +65,17 @@ xmap <silent> <c-l> >gv^
 inoremap <expr> <c-k> pumvisible() ? "\<c-p>" : "\<c-k>"
 inoremap <expr> <c-j> pumvisible() ? "\<c-n>" : "\<c-j>"
 
+" Have the indent commands re-highlight the last visual selection to make
+" multiple indentations easier
+" Credits to : http://sts10.github.io/blog/2016/02/12/best-of-my-vimrc/
+vnoremap > >gv
+vnoremap < <gv
+
+if has('nvim')
+  " Hack to get C-h working in NeoVim
+  imap <BS> <C-W>h
+endif
+
 " ------------------------------------------------------------
 " Plugins
 
@@ -163,3 +174,7 @@ nmap <silent> <leader>dg <Plug>DashGlobalSearch
 
 " extradite
 nnoremap <leader>ex :Extradite!<cr>
+
+" vim-websearch
+" search for selection in visual mode
+vnoremap <leader>w y:<c-u>WebSearch <c-r>"

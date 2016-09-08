@@ -40,6 +40,7 @@ Plug 'junegunn/vim-oblique'
 Plug 'junegunn/gv.vim'
 Plug 'junegunn/vim-xmark', { 'do': 'make' }
 Plug 'leafgarland/typescript-vim'
+Plug 'linluk/vim-websearch'
 Plug 'Lokaltog/vim-easymotion'
 Plug 'majutsushi/tagbar'
 Plug 'maksimr/vim-jsbeautify'
