@@ -41,6 +41,7 @@ CONTENTS
        5.23 SplitJoin ................................ |jonjon-plugin-splitjoin|
        5.24 Motions .................................... |jonjon-plugin-motions|
        5.25 Extradite ................................ |jonjon-plugin-extradite|
+       5.26 ArgWrap .................................... |jonjon-plugin-argwrap|
     6. Tips ...................................................... |jonjon-tips|
        6.1  Multiple copying .................... |jonjon-tips-multiple-copying|
     7  Useful resources .............................. |jonjon-useful-resources|
@@ -69,8 +70,8 @@ Space bar is the leader key.
 
 2. Code format                                                   *jonjon-format*
 
-    - <leader>j
-      Beautify JSON with Python json.tool
+    - <leader>fj
+      Beautify selected JSON with Python json.tool
 
     - <f5>
       Beautify CSS/Less/SCSS with CSScomb
@@ -384,6 +385,12 @@ Space bar is the leader key.
 
    - q
    Closes the Extradite buffer
+
+5.26 ArgWrap                                             *jonjon-plugin-argwrap*
+
+    - <leader>a
+    Collapse / expand everything from function calls to array and dictionary definitions
+    Cursor must be inside of the scope of the parenthesis
 
 6. Tips                                                            *jonjon-tips*
 

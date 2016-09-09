@@ -22,6 +22,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'ervandew/supertab'
 Plug 'evidens/vim-twig'
 Plug 'flazz/vim-colorschemes'
+Plug 'foosoft/vim-argwrap'
 " Plug 'flowtype/vim-flow', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'gavocanov/vim-js-indent', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'godlygeek/tabular'

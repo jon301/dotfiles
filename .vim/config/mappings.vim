@@ -178,3 +178,7 @@ nnoremap <leader>ex :Extradite!<cr>
 " vim-websearch
 " search for selection in visual mode
 vnoremap <leader>w y:<c-u>WebSearch <c-r>"
+
+" vim-argwrap
+nnoremap <silent> <leader>a :ArgWrap<cr>
+
