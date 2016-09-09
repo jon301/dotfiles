@@ -69,6 +69,7 @@ Plug 'Shougo/neomru.vim'
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'  }
   Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern', 'for': ['javascript', 'javascript.jsx'] }
+  Plug 'neomake/neomake'
 else
   Plug 'Shougo/neocomplete.vim'
   " Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
