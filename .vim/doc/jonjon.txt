@@ -117,6 +117,15 @@ Space bar is the leader key.
     - m (Inside NERDTree)
       Open menu
 
+    - B
+      Open bookmarks menu
+
+    - :Bookmark [name]
+    Add the current node to bookmarks
+
+    - D
+    Delete the current bookmark
+
 5.4 NERDCommenter                                  *jonjon-plugin-nerdcommenter*
 
     - <leader>c<space>
