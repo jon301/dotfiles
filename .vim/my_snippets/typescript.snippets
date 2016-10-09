@@ -1,0 +1,102 @@
+snippet ng2-component "Angular 2 component snippet"
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+	moduleId: module.id,
+	selector: '${1:selector}',
+	templateUrl: '${2:feature}.component.html'
+})
+export class ${3:Feature}Component implements OnInit {
+	constructor() { }
+
+	ngOnInit() { }$0
+}
+endsnippet
+
+snippet ng2-service "Angular 2 service snippet"
+import { Injectable } from '@angular/core';
+
+@Injectable()
+export class ${1:ServiceName}Service {
+	constructor() { }$0
+}
+endsnippet
+
+snippet ng2-pipe "Angular 2 pipe snippet"
+import { Pipe, PipeTransform } from '@angular/core';
+
+@Pipe({
+	name: '${1:name}'
+})
+export class ${2:PipeName}Pipe implements PipeTransform {
+	transform(value: any, args: any[]): any {
+		$0
+	}
+}
+endsnippet
+
+snippet ng2-routing "Angular 2 routing file snippet"
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+
+import { ${1:Name}Component } from './${2:name}.component';
+
+const routes: Routes = [
+	{ path: '${3:path}', component: $1Component },
+];
+
+@NgModule({
+	imports: [RouterModule.for${4:Child|Root}(routes)],
+	exports: [RouterModule]
+})
+export class $1RoutingModule { }
+
+export const routedComponents = [$1Component];
+endsnippet
+
+snippet ng2-http-get "Angular 2 Http.get snippet"
+return this.http.get('${1:url}')
+	.map((response: Response) => response.json());
+endsnippet
+
+snippet ng2-subscribe "Angular 2 observable subscribe snippet"
+this.${1:service}.${2:function}
+	.subscribe(${3:arg} => this.${4:property} = $3);
+endsnippet
+
+snippet ng2-bootstrap "Angular 2 bootstrap snippet"
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+
+import { ${1:App}Module } from './${2:app}.module';
+
+platformBrowserDynamic().bootstrapModule($1Module)
+	.then(success => console.log(`Bootstrap success`))
+	.catch(error => console.log(error));
+endsnippet
+
+snippet ng2-component-root "Angular 2 App root component snippet"
+import { Component } from '@angular/core';
+
+@Component({
+	moduleId: module.id,
+	selector: '${1:my-app}',
+	template: `
+		<router-outlet></router-outlet>
+		`
+})
+export class ${2:App}Component { }
+endsnippet
+
+snippet ng2-module "Angular 2 Module snippet"
+import { NgModule } from '@angular/core';
+
+import { ${1:Name}Component }   from './${2:name}.component';
+
+@NgModule({
+	imports: [],
+	exports: [],
+	declarations: [$1Component],
+	providers: []
+})
+export class $1Module { }
+endsnippet
