@@ -71,11 +71,6 @@ inoremap <expr> <c-j> pumvisible() ? "\<c-n>" : "\<c-j>"
 vnoremap > >gv
 vnoremap < <gv
 
-if has('nvim')
-  " Hack to get C-h working in NeoVim
-  imap <BS> <C-W>h
-endif
-
 " ------------------------------------------------------------
 " Plugins
 
@@ -182,3 +177,9 @@ vnoremap <leader>w y:<c-u>WebSearch <c-r>"
 " vim-argwrap
 nnoremap <silent> <leader>a :ArgWrap<cr>
 
+" tsuquyomi
+"
+noremap <leader>tsd :TsuquyomiDefinition<cr>
+noremap <leader>tsb :TsuquyomiGoBack<cr>
+noremap <leader>tsr :TsuquyomiReferences<cr>
+noremap <leader>tsi :TsuquyomiImport<cr>

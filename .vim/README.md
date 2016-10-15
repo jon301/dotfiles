@@ -1,5 +1,15 @@
 ## Installation
 
+0. Install from Brew
+
+    `brew update`
+
+    New install
+    `brew install vim --with-lua`
+
+    or upgrade
+    `brew upgrade vim`
+
 1. Install `ag` itself first:
 
    https://github.com/rking/ag.vim#installation

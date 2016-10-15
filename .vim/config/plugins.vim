@@ -67,14 +67,7 @@ Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'Shougo/neomru.vim'
-if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'  }
-  Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern', 'for': ['javascript', 'javascript.jsx'] }
-  Plug 'neomake/neomake'
-else
-  Plug 'Shougo/neocomplete.vim'
-  " Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
-endif
+Plug 'Shougo/neocomplete.vim'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'sjl/gundo.vim', {'on': 'GundoToggle'}
 Plug 'taiansu/nerdtree-ag'

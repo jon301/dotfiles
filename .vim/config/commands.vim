@@ -28,7 +28,3 @@ autocmd BufEnter * redraw
 " automatically close buffer if nerdtree is the only active buffer
 " https://github.com/scrooloose/nerdtree/issues/21
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-
-if has('nvim')
-  autocmd! BufWritePost * Neomake
-endif
