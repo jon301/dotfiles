@@ -3,3 +3,5 @@ let g:tsuquyomi_disable_default_mappings = 1
 
 " open definition in new tab
 let g:tsuquyomi_definition_split = 3
+
+let g:tsuquyomi_single_quote_import = 1
