@@ -42,6 +42,7 @@ CONTENTS
        5.24 Motions .................................... |jonjon-plugin-motions|
        5.25 Extradite ................................ |jonjon-plugin-extradite|
        5.26 ArgWrap .................................... |jonjon-plugin-argwrap|
+       5.27 Ren ............................................ |jonjon-plugin-ren|
     6. Tips ...................................................... |jonjon-tips|
        6.1  Multiple copying .................... |jonjon-tips-multiple-copying|
     7  Useful resources .............................. |jonjon-useful-resources|
@@ -391,6 +392,11 @@ Space bar is the leader key.
     - <leader>a
     Collapse / expand everything from function calls to array and dictionary definitions
     Cursor must be inside of the scope of the parenthesis
+
+5.27 Ren                                                     *jonjon-plugin-ren*
+
+    - :Ren
+    Perform a mass files rename
 
 6. Tips                                                            *jonjon-tips*
 

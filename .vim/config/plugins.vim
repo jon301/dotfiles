@@ -59,6 +59,7 @@ Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript', 'javascri
 Plug 'Olical/vim-enmasse'
 Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'plasticboy/vim-markdown', { 'as': 'vim-markdown-plasticboy' }
+Plug 'qpkorr/vim-renamer'
 Plug 'Quramy/tsuquyomi', {'do': 'npm install'}
 Plug 'Raimondi/delimitMate'
 Plug 'rking/ag.vim'
