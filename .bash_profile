@@ -138,3 +138,9 @@ export NVM_DIR="/Users/jon301/.nvm"
 
 export EDITOR="vim"
 export GOPATH=$HOME/go
+export PATH="$HOME/.yarn/bin:$PATH"
+
+alias vim="/usr/local/opt/vim/bin/vim"
+
+source ~/data/dotfiles/fzf/functions.sh
+source ~/data/dotfiles/fzf/key-binding.bash
