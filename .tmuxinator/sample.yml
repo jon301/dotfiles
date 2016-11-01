@@ -1,6 +1,6 @@
-# ~/.tmuxinator/lf.yml
+# ~/.tmuxinator/sample.yml
 
-name: lf
+name: sample
 root: ~
 
 # Optional tmux socket
@@ -19,39 +19,30 @@ root: ~
 # tmux_command: byobu
 
 # Specifies (by name or index) which window will be selected on project startup. If not set, the first window is used.
-startup_window: portal
+startup_window: project
 
 # Controls whether the tmux session should be attached to automatically. Defaults to true.
 # attach: false
 
 # Runs after everything. Use it to attach to tmux with custom options etc.
-# post: tmux -CC attach -t lf
+# post: tmux -CC attach -t sample
+
+# Layouts
+# First set up your layout just how you like it - you can adjust widths with resize-pane until it is just right for you.
+# Then run `tmux list-windows` in the command line.
+# And then you should be able to use the layout: line from the output unaltered in tmuxinator.conf
 
 windows:
   - local: # basic shell
-  - portal:
+  - github: vim -c "GHA" -c "GHD"
+  - project:
       layout: 1843,191x53,0,0[191x41,0,0,28,191x11,0,42{95x11,0,42,30,95x11,96,42,33}]
       panes:
-        - vim:
-            - cd ~/workspace/lafourchette-portal
+        - editor:
+            - cd ~
         - logs:
-            - cd ~/workspace/lafourchette-portal
-            - tail -f app/logs/dev.log | grep "api?"
+            - cd ~
+            # tail something
         - api:
-            - cd ~/workspace/lafourchette-portal
-            - tail -f app/logs/dev.log | grep "api?"
-  - portal-grunt:
-        - cd ~/workspace/lafourchette-portal
-  - core:
-      layout: 2fe7,191x53,0,0[191x40,0,0,20,191x12,0,41,25]
-      panes:
-        - vim:
-            - cd ~/workspace/lafourchette-core
-        - logs:
-            - cd ~/workspace/lafourchette-core
-            - tail -f app/logs/dev.log
-  - vm55:
-      - cd ~/vm/lafourchette-vm
-      - vagrant ssh
-  - integ4:
-      - ssh vagrant@status.integ4.lafourchette.io
+            - cd ~
+            # tail something
