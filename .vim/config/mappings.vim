@@ -98,7 +98,7 @@ nnoremap <leader>fb :BLines<cr>
 nnoremap <leader>fw :Windows<cr>
 nnoremap <leader>fs :Snippets<cr>
 nnoremap <leader>fh :Helptags<cr>
-nnoremap <leader>fl :Locate<cr>
+nnoremap <leader>fl :Locate<space>
 
 " jsdoc
 nnoremap <leader>dc :JsDoc<CR>
