@@ -38,7 +38,8 @@ Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': './install --all'}
 Plug 'junegunn/vim-easy-align'
 Plug 'junegunn/vim-pseudocl'
 Plug 'junegunn/vim-fnr'
-Plug 'junegunn/vim-oblique'
+Plug 'junegunn/vim-slash'
+" Plug 'junegunn/vim-oblique'
 Plug 'junegunn/gv.vim'
 Plug 'junegunn/vim-xmark', { 'do': 'make' }
 Plug 'leafgarland/typescript-vim'

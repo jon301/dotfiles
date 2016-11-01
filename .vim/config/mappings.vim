@@ -183,3 +183,6 @@ noremap <leader>tsd :TsuquyomiDefinition<cr>
 noremap <leader>tsb :TsuquyomiGoBack<cr>
 noremap <leader>tsr :TsuquyomiReferences<cr>
 noremap <leader>tsi :TsuquyomiImport<cr>
+
+" vim-slash
+noremap <plug>(slash-after) zz
