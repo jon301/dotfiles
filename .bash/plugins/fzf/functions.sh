@@ -1,6 +1,12 @@
 # GIT heart FZF
 # -------------
 
+# CTRL-G CTRL-F for files
+# CTRL-G CTRL-B for branches
+# CTRL-G CTRL-T for tags
+# CTRL-G CTRL-R for remotes
+# CTRL-G CTRL-H for commit hashes
+
 is_in_git_repo() {
   git rev-parse HEAD > /dev/null 2>&1
 }

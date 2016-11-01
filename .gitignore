@@ -1,9 +1,11 @@
 .vim/.netrwhist
 .vim/autoload/plug.vim
-.vim/autoload/plug.vim.old
 .vim/plugged/
 .vim/swap/
 .vim/backup/
 .vim/undofiles/
+.vim/init.vim
 .ssh/id_rsa*
 .ssh/known_hosts
+.bash/private.bash
+.tmuxinator/*
