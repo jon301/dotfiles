@@ -74,8 +74,8 @@ vnoremap < <gv
 " ------------------------------------------------------------
 " Plugins
 
-" gundo
-nnoremap <leader>gu :GundoToggle<cr>
+" undotree
+nnoremap <leader>gu :UndotreeToggle<cr>
 
 " tagbar
 nnoremap <leader>tt :TagbarToggle<cr>

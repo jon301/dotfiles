@@ -16,7 +16,7 @@ CONTENTS
     3. Macros .................................................. |jonjon-macros|
     4. Tags ...................................................... |jonjon-tags|
     5. Plugins ................................................ |jonjon-plugins|
-       5.1  Gundo ........................................ |jonjon-plugin-gundo|
+       5.1  UndoTree .................................. |jonjon-plugin-undotree|
        5.2  TagBar ...................................... |jonjon-plugin-tagbar|
        5.3  NERDTree .................................. |jonjon-plugin-nerdtree|
        5.4  NERDCommenter ........................ |jonjon-plugin-nerdcommenter|
@@ -43,6 +43,7 @@ CONTENTS
        5.25 Extradite ................................ |jonjon-plugin-extradite|
        5.26 ArgWrap .................................... |jonjon-plugin-argwrap|
        5.27 Ren ............................................ |jonjon-plugin-ren|
+       5.28 Github Dashboard ................................ |jonjon-plugin-gd|
     6. Tips ...................................................... |jonjon-tips|
        6.1  Multiple copying .................... |jonjon-tips-multiple-copying|
     7  Useful resources .............................. |jonjon-useful-resources|
@@ -98,10 +99,10 @@ Space bar is the leader key.
 
 5. Plugins                                                      *jonjon-plugins*
 
-5.1 Gundo                                                  *jonjon-plugin-gundo*
+5.1 UndoTree                                            *jonjon-plugin-undotree*
 
     - <leader>gu
-      Toggle Gundo
+      Toggle UndoTree
 
 5.2 TagBar                                                *jonjon-plugin-tagbar*
 
@@ -397,6 +398,19 @@ Space bar is the leader key.
 
     - :Ren
     Perform a mass files rename
+
+5.28 Github Dashboard                                         *jonjon-plugin-gd*
+
+    - :GHDashboard
+    - :GHDashboard USER
+    - :GHActivity
+    - :GHActivity USER
+    - :GHActivity USER/REPO
+
+    - Use CTRL-N and CTRL-P to navigate back and forth through the links.
+    - Press Enter key or double-click on a link to open it in the browser.
+    - Press R to refresh the window.
+    - Press q to close the window.
 
 6. Tips                                                            *jonjon-tips*
 

@@ -34,12 +34,13 @@ Plug 'int3/vim-extradite'
 Plug 'jeetsukumaran/vim-buffergator'
 Plug 'jiangmiao/auto-pairs'
 Plug 'jreybert/vimagit'
+Plug 'junegunn/vim-online-thesaurus'
 Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': './install --all'}
+Plug 'junegunn/vim-github-dashboard', { 'on': ['GHDashboard', 'GHActivity'] }
 Plug 'junegunn/vim-easy-align'
 Plug 'junegunn/vim-pseudocl'
 Plug 'junegunn/vim-fnr'
 Plug 'junegunn/vim-slash'
-" Plug 'junegunn/vim-oblique'
 Plug 'junegunn/gv.vim'
 Plug 'junegunn/vim-xmark', { 'do': 'make' }
 Plug 'leafgarland/typescript-vim'
@@ -50,6 +51,7 @@ Plug 'maksimr/vim-jsbeautify'
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
 Plug 'mattn/emmet-vim', {'for': ['html', 'html.twig']}
 Plug 'MattesGroeger/vim-bookmarks'
+Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'mhinz/vim-startify'
 Plug 'mxw/vim-jsx', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'mzlogin/vim-markdown-toc'
@@ -71,7 +73,6 @@ Plug 'scrooloose/nerdtree'
 Plug 'Shougo/neomru.vim'
 Plug 'Shougo/neocomplete.vim'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
-Plug 'sjl/gundo.vim', {'on': 'GundoToggle'}
 Plug 'taiansu/nerdtree-ag'
 Plug 'teoljungberg/vim-grep'
 Plug 'terryma/vim-expand-region'
