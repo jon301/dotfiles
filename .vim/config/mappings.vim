@@ -92,7 +92,13 @@ map <s-c> ,c<space>
 nnoremap <silent> <leader>nn :NERDTreeFocus<cr>
 
 " fzf
+" https://github.com/junegunn/fzf.vim#commands
 nnoremap <leader>ff :FZF!<cr>
+nnoremap <leader>fb :BLines<cr>
+nnoremap <leader>fw :Windows<cr>
+nnoremap <leader>fs :Snippets<cr>
+nnoremap <leader>fh :Helptags<cr>
+nnoremap <leader>fl :Locate<cr>
 
 " jsdoc
 nnoremap <leader>dc :JsDoc<CR>
