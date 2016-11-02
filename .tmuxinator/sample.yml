@@ -35,7 +35,7 @@ startup_window: project
 windows:
   - local: # basic shell
   - github: vim -c "GHA" -c "GHD"
-  - todos: vim -c "VimwikiIndex" -c "GHA" -c "GHD"
+  - todos: vim -c "VimwikiIndex"
   - project:
       layout: 1843,191x53,0,0[191x41,0,0,28,191x11,0,42{95x11,0,42,30,95x11,96,42,33}]
       panes:
