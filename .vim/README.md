@@ -33,9 +33,13 @@
 
 4. Install PlantUML
 
-    - http://plantuml.com/download
+    Install Java Platform JDK
+    http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-    - Download PlantUML latest JAR and put it here :
+    Download PlantUML JAR file
+    http://plantuml.com/download
+
+    Put the JAR file at this location
     `$HOME/lib/java/plantuml.jar`
 
 ## Bonus:
