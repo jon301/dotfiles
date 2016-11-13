@@ -5,10 +5,6 @@ source ~/.bash/plugins/git/.git-prompt.sh
 # Tmuxinator
 source ~/.bash/plugins/tmuxinator/.tmuxinator.bash
 
-# nvm
-export NVM_DIR="~/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && source "$NVM_DIR/nvm.sh"  # This loads nvm
-
 # fzf
 [ -f ~/.fzf.bash  ] && source ~/.fzf.bash
 source ~/.bash/plugins/fzf/functions.sh

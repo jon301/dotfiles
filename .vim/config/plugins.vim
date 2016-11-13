@@ -102,6 +102,11 @@ Plug 'xolox/vim-colorscheme-switcher'
 Plug 'xolox/vim-misc'
 Plug 'fatih/vim-go'
 
+" plantuml
+Plug 'aklt/plantuml-syntax'
+Plug 'scrooloose/vim-slumlord'
+Plug 'skywind3000/asyncrun.vim'
+
 " code snippets
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'

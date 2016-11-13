@@ -31,6 +31,13 @@
         sed s/^..//) 2> /dev/null'
     `
 
+4. Install PlantUML
+
+    - http://plantuml.com/download
+
+    - Download PlantUML latest JAR and put it here :
+    `$HOME/lib/java/plantuml.jar`
+
 ## Bonus:
 
 1. Add support to alt + arrow keys in order to jump to previous next word

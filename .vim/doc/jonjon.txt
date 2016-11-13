@@ -7,6 +7,14 @@ How To
 - Generate associated tags with command :helptags ~/.vim/doc
 - Position the cursor on a tag and type `ti`
 
+Command Line Editing
+:h cmdline-editing
+
+ctrl-B: cursor to beginning of command-line
+ctrl-E: cursor to end of command-line
+ctrl-W: delete the word before the cursor
+ctrl-U: remove all characters between the cursor position and the beginning of the line
+
 ===============================================================================
 CONTENTS
 
@@ -44,6 +52,7 @@ CONTENTS
        5.26 ArgWrap .................................... |jonjon-plugin-argwrap|
        5.27 Ren ............................................ |jonjon-plugin-ren|
        5.28 Github Dashboard ................................ |jonjon-plugin-gd|
+       5.29 PlantUML .................................. |jonjon-plugin-plantuml|
     6. Tips ...................................................... |jonjon-tips|
        6.1  Multiple copying .................... |jonjon-tips-multiple-copying|
     7  Useful resources .............................. |jonjon-useful-resources|
@@ -411,6 +420,15 @@ Space bar is the leader key.
     - Press Enter key or double-click on a link to open it in the browser.
     - Press R to refresh the window.
     - Press q to close the window.
+
+5.29 PlantUML                                           *jonjon-plugin-plantuml*
+
+    - http://plantuml.com/sitemap-language-specification
+
+    - Create and edit your *.pu, *.uml or *.plantuml file
+
+    - <leader>pu
+    Generates an SVG file + Preview on browser
 
 6. Tips                                                            *jonjon-tips*
 

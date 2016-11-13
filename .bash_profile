@@ -5,3 +5,6 @@ source ~/.bash/plugins.bash
 
 # put your private tokens in a private separate file
 [ -f ~/.bash/private.bash  ] && source ~/.bash/private.bash
+
+export NVM_DIR="/Users/pc/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

@@ -71,6 +71,9 @@ inoremap <expr> <c-j> pumvisible() ? "\<c-n>" : "\<c-j>"
 vnoremap > >gv
 vnoremap < <gv
 
+" plantuml
+autocmd FileType pu,uml,plantuml nnoremap <buffer> <leader>pu :call PlantUmlSvg()<CR>
+
 " ------------------------------------------------------------
 " Plugins
 

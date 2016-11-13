@@ -36,3 +36,9 @@ function! s:todo() abort
   endif
 endfunction
 command! Todo call s:todo()
+
+" Generate plantuml svg file
+func! PlantUmlSvg()
+  " open -g : does not bring the application to the foreground.
+  execute "AsyncRun! java -jar $HOME/lib/java/plantuml.jar -tsvg % && open -g %:r.svg"
+endf
