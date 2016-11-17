@@ -146,7 +146,22 @@ Space bar is the leader key.
 5.5 FZF                                                      *jonjon-plugin-fzf*
 
     - <leader>ff
-      Toggle the fuzzy finder
+      Find file
+
+    - <leader>fb
+      Find line in current file
+
+    - <leader>fw
+      Find window through all opened window
+
+    - <leader>fs
+      Find snippet
+
+    - <leader>fh
+      Find help tag
+
+    - <leader>fl
+      Locate file in system
 
 5.6 JsDoc                                                  *jonjon-plugin-jsdoc*
 

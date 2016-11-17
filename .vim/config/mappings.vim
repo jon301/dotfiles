@@ -195,3 +195,6 @@ noremap <leader>tsi :TsuquyomiImport<cr>
 
 " vim-slash
 noremap <plug>(slash-after) zz
+
+" thumbnail
+nnoremap <leader>fo :Thumbnail<cr>
