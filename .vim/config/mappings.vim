@@ -96,12 +96,16 @@ nnoremap <silent> <leader>nn :NERDTreeFocus<cr>
 
 " fzf
 " https://github.com/junegunn/fzf.vim#commands
-nnoremap <leader>ff :FZF!<cr>
+" nnoremap <leader>ff :FZF!<cr>
+nnoremap <leader>ff :Files<cr>
 nnoremap <leader>fb :BLines<cr>
-nnoremap <leader>fw :Windows<cr>
+nnoremap <leader>fw :Buffers<cr>
 nnoremap <leader>fs :Snippets<cr>
 nnoremap <leader>fh :Helptags<cr>
 nnoremap <leader>fl :Locate<space>
+
+" thumbnail
+nnoremap <leader>fo :Thumbnail<cr>
 
 " jsdoc
 nnoremap <leader>dc :JsDoc<CR>
@@ -195,6 +199,3 @@ noremap <leader>tsi :TsuquyomiImport<cr>
 
 " vim-slash
 noremap <plug>(slash-after) zz
-
-" thumbnail
-nnoremap <leader>fo :Thumbnail<cr>
