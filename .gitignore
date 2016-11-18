@@ -8,4 +8,4 @@
 .ssh/id_rsa*
 .ssh/known_hosts
 .bash/private.bash
-.tmuxinator/*
+.tmuxinator

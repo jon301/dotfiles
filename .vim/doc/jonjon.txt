@@ -53,6 +53,7 @@ CONTENTS
        5.27 Ren ............................................ |jonjon-plugin-ren|
        5.28 Github Dashboard ................................ |jonjon-plugin-gd|
        5.29 PlantUML .................................. |jonjon-plugin-plantuml|
+       5.30 Calendar .................................. |jonjon-plugin-calendar|
     6. Tips ...................................................... |jonjon-tips|
        6.1  Multiple copying .................... |jonjon-tips-multiple-copying|
     7  Useful resources .............................. |jonjon-useful-resources|
@@ -444,6 +445,21 @@ Space bar is the leader key.
 
     - <leader>pu
     Generates an SVG file + Preview on browser
+
+5.30 Calendar                                           *jonjon-plugin-calendar*
+
+    Tasks
+    - O / o : Create task before / after current line
+    - i / a : Edit task (cursor at the beginning / end)
+    - dd / D : Complete task
+    - L : Clear completed tasks
+    - <C-g> : Show task full text in status line
+
+    Events
+    - a : Create an event
+    - E : Toggle event window
+        i / a : Edit event (cursor at the beginning / end)
+    - dd / D : Delete event
 
 6. Tips                                                            *jonjon-tips*
 

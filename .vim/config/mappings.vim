@@ -2,6 +2,9 @@
 " let mapleader = ","
 let mapleader = "\<space>"
 
+" no more esc key dude
+inoremap jk <esc>
+
 " don't use alt keys for menus
 set winaltkeys=no
 

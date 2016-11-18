@@ -1,4 +1,3 @@
-" Called once right before you start selecting multiple cursors
 function! Multiple_cursors_before()
     if exists(':NeoCompleteLock')==2
         exe 'NeoCompleteLock'

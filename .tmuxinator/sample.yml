@@ -34,6 +34,7 @@ startup_window: project
 
 windows:
   - local: # basic shell
+  - calendar: vim -c "Calendar -task -view=week"
   - github: vim -c "GHA" -c "GHD"
   - todos: vim -c "VimwikiIndex"
   - project:
