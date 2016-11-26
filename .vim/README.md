@@ -57,3 +57,12 @@
     - On iTerm2, go to:
     Preferences > Profiles > Text > Non-ASCII Font > Change Font > Source Code Pro For Powerline
 
+3. Remap Caps Lock key to Escape in macOS Sierra
+
+    http://www.jeffgeerling.com/blog/2016/remapping-caps-lock-key-escape-macos-sierra
+
+    - Open System Preferences and click on 'Keyboard'
+    - Click on 'Modifier Keys...'
+    - For 'Caps Lock (⇪) Key', choose '⎋ Escape'
+    - Click 'OK'
+

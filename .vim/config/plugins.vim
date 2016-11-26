@@ -55,7 +55,7 @@ Plug 'Lokaltog/vim-easymotion'
 Plug 'majutsushi/tagbar'
 Plug 'maksimr/vim-jsbeautify'
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
-Plug 'mattn/emmet-vim', {'for': ['html', 'html.twig']}
+Plug 'mattn/emmet-vim', {'for': ['html', 'css']}
 Plug 'MattesGroeger/vim-bookmarks'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'mhinz/vim-startify'
