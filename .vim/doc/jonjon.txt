@@ -54,6 +54,7 @@ CONTENTS
        5.28 Github Dashboard ................................ |jonjon-plugin-gd|
        5.29 PlantUML .................................. |jonjon-plugin-plantuml|
        5.30 Calendar .................................. |jonjon-plugin-calendar|
+       5.31 Slime ........................................ |jonjon-plugin-slime|
     6. Tips ...................................................... |jonjon-tips|
        6.1  Multiple copying .................... |jonjon-tips-multiple-copying|
     7  Useful resources .............................. |jonjon-useful-resources|
@@ -460,6 +461,16 @@ Space bar is the leader key.
     - E : Toggle event window
         i / a : Edit event (cursor at the beginning / end)
     - dd / D : Delete event
+
+5.31 Slime                                                 *jonjon-plugin-slime*
+
+    - Create a tmux pane (vertical or horizontal)
+    - <C-x> q : to display tmux pane numbers
+
+    - On vim, select the text you wanna send to the tmux pane
+    - Then type : <C-c> c
+    - On the prompt, type the tmux pane number (it won't prompt you again)
+    - To reconfigure tmux pane number, type :SlimeConfig
 
 6. Tips                                                            *jonjon-tips*
 

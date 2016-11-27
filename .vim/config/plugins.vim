@@ -37,6 +37,7 @@ Plug 'itchyny/calendar.vim'
 Plug 'itchyny/thumbnail.vim'
 Plug 'jeetsukumaran/vim-buffergator'
 Plug 'jiangmiao/auto-pairs'
+Plug 'jpalardy/vim-slime'
 Plug 'jreybert/vimagit'
 Plug 'junegunn/vim-online-thesaurus'
 Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': './install --all'}
