@@ -42,6 +42,10 @@
     Put the JAR file at this location
     `$HOME/lib/java/plantuml.jar`
 
+5. Install reattach-to-user-namespace
+
+    `brew install reattach-to-user-namespace`
+
 ## Bonus:
 
 1. Add support to alt + arrow keys in order to jump to previous next word
