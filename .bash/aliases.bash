@@ -2,9 +2,9 @@
 ####################################
 
 # show hidden files
-alias ll="ls -al"
+alias ll="ls -al --color"
 # make ls display in columns and with a file type indicator (end directories with "/", etc) by default
-alias ls="ls -CF"
+alias ls="ls -CF --color"
 # make an alias to pipe our output to less for viewing large directory listings with the long format
 alias lsl="ls -lhFA | less"
 # cut out the cd part entirely by making an alias for ..
@@ -16,4 +16,5 @@ alias fhere="find . -name "
 # make our process table searchable
 alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
 
-alias vim="/usr/local/opt/vim/bin/vim"
+alias vi="vim"
+# alias vim="/usr/local/opt/vim/bin/vim"
