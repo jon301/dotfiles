@@ -9,8 +9,8 @@
         st = status
         ru = remote update
         nlog = log --name-status --decorate
-        ls = log --pretty=online --abbrev-commit --decorate
-        ls = log --pretty=online --abbrev-commit --decorate --graph
+        ls = log --pretty=oneline --abbrev-commit --decorate
+        ls = log --pretty=oneline --abbrev-commit --decorate --graph
         ctags = !.git/hooks/ctags
 [color]
         ui = auto
