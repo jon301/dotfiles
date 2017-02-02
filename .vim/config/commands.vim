@@ -11,7 +11,7 @@ autocmd WinLeave * set nocursorline
 " autocmd BufWrite * silent! %s/[\x80-\xff]//
 
 " remove trailing whitespaces before save
-autocmd BufWrite * silent! %s/[\r \t]\+$//
+" autocmd BufWrite * silent! %s/[\r \t]\+$//
 
 " authentification inside vim
 command! -bar -nargs=0 SudoW :silent exe "write !sudo tee % >/dev/null"|silent edit!

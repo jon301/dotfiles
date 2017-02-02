@@ -97,7 +97,7 @@ set expandtab
 set ls=2
 
 " line max width
-set textwidth=80
+set textwidth=100
 
 " display a line at the edge of the set textwidth
 set cc=+1
