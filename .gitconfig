@@ -1,6 +1,6 @@
 [user]
         name = Jonathan Trang
-        email = jonathan.trang@zenika.com
+        email = jonathan.trang@schibsted.com
 [alias]
         br = branch -v
         ba = branch -va
@@ -12,6 +12,7 @@
         ls = log --pretty=oneline --abbrev-commit --decorate
         ls = log --pretty=oneline --abbrev-commit --decorate --graph
         ctags = !.git/hooks/ctags
+        review = !git-review
 [color]
         ui = auto
 [merge]
@@ -20,3 +21,5 @@
         templatedir = ~/.git_template
 [core]
         editor = vim
+[gitreview]
+        remote = origin
