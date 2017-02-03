@@ -55,6 +55,7 @@ CONTENTS
        5.29 PlantUML .................................. |jonjon-plugin-plantuml|
        5.30 Calendar .................................. |jonjon-plugin-calendar|
        5.31 Slime ........................................ |jonjon-plugin-slime|
+       5.32 TwitVim .................................... |jonjon-plugin-twitvim|
     6. Tips ...................................................... |jonjon-tips|
        6.1  Multiple copying .................... |jonjon-tips-multiple-copying|
     7  Useful resources .............................. |jonjon-useful-resources|
@@ -471,6 +472,20 @@ Space bar is the leader key.
     - Then type : <C-c> c
     - On the prompt, type the tmux pane number (it won't prompt you again)
     - To reconfigure tmux pane number, type :SlimeConfig
+
+5.32 TwitVim                                             *jonjon-plugin-twitvim*
+
+    - Require Twitter authentication
+    :SetLoginTwitter
+
+    - Display friends feeds
+    :FriendsTwitter
+
+    - Go to next page
+    <leader><leader>p
+
+    - Go to prev page
+    <leader><leader>a
 
 6. Tips                                                            *jonjon-tips*
 
