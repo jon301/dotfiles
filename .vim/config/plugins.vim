@@ -95,6 +95,7 @@ Plug 'tpope/vim-markdown', { 'as': 'vim-markdown-tpope' }
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-ragtag'
 Plug 'tpope/vim-surround'
+Plug 'twitvim/twitvim'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'unblevable/quick-scope'
 Plug 'valloric/MatchTagAlways'

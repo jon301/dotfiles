@@ -202,3 +202,7 @@ noremap <leader>tsi :TsuquyomiImport<cr>
 
 " vim-slash
 noremap <plug>(slash-after) zz
+
+" twitvim
+autocmd FileType twitvim nnoremap <leader><leader>p :NextTwitter<CR>
+autocmd FileType twitvim nnoremap <leader><leader>a :PreviousTwitter<CR>
