@@ -130,3 +130,5 @@ set nofoldenable
 
 " always vertical diff
 set diffopt=vertical
+
+set backupcopy=yes

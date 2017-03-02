@@ -49,7 +49,8 @@ Plug 'junegunn/vim-fnr'
 Plug 'junegunn/vim-slash'
 Plug 'junegunn/gv.vim'
 Plug 'junegunn/vim-emoji'
-Plug 'junegunn/vim-xmark', { 'do': 'make' }
+" Plug 'junegunn/vim-xmark', { 'do': 'make' }
+Plug 'suan/vim-instant-markdown'
 Plug 'leafgarland/typescript-vim'
 Plug 'linluk/vim-websearch'
 Plug 'Lokaltog/vim-easymotion'
