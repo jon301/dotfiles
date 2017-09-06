@@ -14,6 +14,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'ap/vim-css-color'
 Plug 'AndrewRadev/linediff.vim'
 Plug 'AndrewRadev/splitjoin.vim'
+Plug 'aquach/vim-http-client'
 Plug 'bling/vim-airline'
 Plug 'cohama/agit.vim'
 Plug 'vim-airline/vim-airline-themes'
@@ -73,9 +74,11 @@ Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'plasticboy/vim-markdown', { 'as': 'vim-markdown-plasticboy' }
 Plug 'qpkorr/vim-renamer'
 Plug 'Quramy/tsuquyomi', {'do': 'npm install'}
+Plug 'posva/vim-vue'
 Plug 'Raimondi/delimitMate'
 Plug 'rking/ag.vim'
 Plug 'rizzatti/dash.vim', { 'on': 'Dash' }
+Plug 'sbdchd/neoformat'
 Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
