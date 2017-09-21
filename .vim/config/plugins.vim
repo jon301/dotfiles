@@ -10,6 +10,7 @@ endif
 
 " plugin list
 call plug#begin()
+Plug 'abaldwin88/roamer.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'ap/vim-css-color'
 Plug 'AndrewRadev/linediff.vim'
@@ -109,6 +110,7 @@ Plug 'vim-scripts/matchit.zip'
 Plug 'vim-scripts/DrawIt'
 Plug 'vim-scripts/showhide.vim'
 Plug 'vimwiki/vimwiki'
+" Plug 'w0rp/ale'
 Plug 'xolox/vim-colorscheme-switcher'
 Plug 'xolox/vim-misc'
 Plug 'fatih/vim-go'
