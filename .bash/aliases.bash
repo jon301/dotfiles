@@ -15,5 +15,3 @@ alias ......="cd ../../.."
 alias fhere="find . -name "
 # make our process table searchable
 alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
-
-alias vim="/usr/local/opt/vim/bin/vim"

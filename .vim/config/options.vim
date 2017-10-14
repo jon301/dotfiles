@@ -73,7 +73,7 @@ set directory=~/.vim/swap
 
 " saves undo history to an undo file when writing a buffer to a file, and restores undo history from the same file on buffer read
 set undofile
-set undodir=~/.vim/undofiles
+set undodir=~/.vim/undofiles/
 
 " copy indent from current line when starting a new line
 set autoindent
@@ -130,3 +130,6 @@ set nofoldenable
 
 " always vertical diff
 set diffopt=vertical
+
+" make a copy of the file and overwrite the original one
+set backupcopy=yes
