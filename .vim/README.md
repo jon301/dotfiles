@@ -46,6 +46,10 @@
 
     `brew install reattach-to-user-namespace`
 
+6. Create vim directories
+
+    `cd ~/.vim; mkdir swap backup undofiles`
+
 ## Bonus:
 
 1. Add support to alt + arrow keys in order to jump to previous next word
