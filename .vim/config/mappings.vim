@@ -178,9 +178,8 @@ vmap v <Plug>(expand_region_expand)
 nnoremap <leader><leader>h :HTTPClientDoRequest<cr>
 vmap <leader><leader>h :QuickRun bash<cr>
 
-" vim-grep
-" prevent grep to open the first file automatically
-cabbrev Grep Grep!
+" vim-grepper
+cabbrev Grep GrepperGit
 
 " dash.vim
 nmap <silent> <leader>df <Plug>DashSearch
@@ -197,7 +196,6 @@ vnoremap <leader>w y:<c-u>WebSearch <c-r>"
 nnoremap <silent> <leader>a :ArgWrap<cr>
 
 " tsuquyomi
-"
 noremap <leader>tsd :TsuquyomiDefinition<cr>
 noremap <leader>tsb :TsuquyomiGoBack<cr>
 noremap <leader>tsr :TsuquyomiReferences<cr>

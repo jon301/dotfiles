@@ -59,6 +59,7 @@ Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
 Plug 'mattn/emmet-vim', {'for': ['html', 'css']}
 Plug 'MattesGroeger/vim-bookmarks'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
+Plug 'mhinz/vim-grepper'
 Plug 'mhinz/vim-startify'
 Plug 'mxw/vim-jsx', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'mzlogin/vim-markdown-toc'
@@ -80,7 +81,6 @@ Plug 'Shougo/neomru.vim'
 Plug 'Shougo/neocomplete.vim'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'taiansu/nerdtree-ag'
-Plug 'teoljungberg/vim-grep'
 Plug 'terryma/vim-expand-region'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'thalesmello/webcomplete.vim'
