@@ -21,15 +21,12 @@ Plug 'cohama/agit.vim'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'chaoren/vim-wordmotion'
 Plug 'chrisbra/NrrwRgn'
-Plug 'christoomey/vim-tmux-navigator'
-" Plug 'diepm/vim-rest-console'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'ervandew/supertab'
 Plug 'evidens/vim-twig'
 Plug 'flazz/vim-colorschemes'
 Plug 'foosoft/vim-argwrap'
-" Plug 'flowtype/vim-flow', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'gavocanov/vim-js-indent', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'godlygeek/tabular'
 Plug 'gregsexton/gitv'
@@ -52,7 +49,6 @@ Plug 'junegunn/vim-pseudocl'
 Plug 'junegunn/vim-fnr'
 Plug 'junegunn/vim-slash'
 Plug 'junegunn/gv.vim'
-Plug 'junegunn/vim-emoji'
 Plug 'junegunn/vim-xmark', { 'do': 'make' }
 Plug 'leafgarland/typescript-vim'
 Plug 'linluk/vim-websearch'
@@ -68,7 +64,6 @@ Plug 'mxw/vim-jsx', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'mzlogin/vim-markdown-toc'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'nelstrom/vim-visual-star-search'
-" Plug 'neomake/neomake'
 Plug 'othree/html5.vim'
 Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'Olical/vim-enmasse'
@@ -79,7 +74,6 @@ Plug 'Quramy/tsuquyomi', {'do': 'npm install'}
 Plug 'Raimondi/delimitMate'
 Plug 'rking/ag.vim'
 Plug 'rizzatti/dash.vim', { 'on': 'Dash' }
-" Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
 Plug 'Shougo/neomru.vim'
@@ -94,7 +88,6 @@ Plug 'thinca/vim-quickrun'
 Plug 'tobyS/pdv'
 Plug 'tobyS/vmustache'
 Plug 'tpope/vim-abolish'
-"Plug 'tpope/vim-dispatch' " Commented out, conflicts with vim-grep & tmux
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-markdown', { 'as': 'vim-markdown-tpope' }
 Plug 'tpope/vim-repeat'

@@ -15,3 +15,5 @@ alias ......="cd ../../.."
 alias fhere="find . -name "
 # make our process table searchable
 alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
+# clear
+alias cl="clear"

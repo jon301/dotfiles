@@ -23,7 +23,7 @@ command! C let @/=""
 autocmd QuickFixCmdPost *grep* cwindow
 
 " fix background color bleeding
-" autocmd BufEnter * redraw
+autocmd BufEnter * redraw
 
 " automatically close buffer if nerdtree is the only active buffer
 " https://github.com/scrooloose/nerdtree/issues/21
