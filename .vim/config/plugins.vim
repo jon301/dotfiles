@@ -12,7 +12,6 @@ endif
 call plug#begin()
 Plug 'abaldwin88/roamer.vim'
 Plug 'airblade/vim-gitgutter'
-Plug 'ap/vim-css-color'
 Plug 'AndrewRadev/linediff.vim'
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'aquach/vim-http-client'
