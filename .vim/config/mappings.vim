@@ -108,6 +108,7 @@ nnoremap <leader>fb :BLines<cr>
 nnoremap <leader>fw :Buffers<cr>
 nnoremap <leader>fs :Snippets<cr>
 nnoremap <leader>fh :Helptags<cr>
+nnoremap <leader>fc :History:<cr>
 nnoremap <leader>fl :Locate<space>
 
 " thumbnail
@@ -175,7 +176,7 @@ vmap v <Plug>(expand_region_expand)
 " <leader>b : list buffers
 
 " vim-http-client
-nnoremap <leader><leader>h :HTTPClientDoRequest<cr>
+autocmd FileType rest nnoremap <leader><leader>h :HTTPClientDoRequest<cr>
 vmap <leader><leader>h :QuickRun bash<cr>
 
 " vim-grepper
@@ -207,3 +208,6 @@ noremap <plug>(slash-after) zz
 " twitvim
 autocmd FileType twitvim nnoremap <leader><leader>p :NextTwitter<CR>
 autocmd FileType twitvim nnoremap <leader><leader>a :PreviousTwitter<CR>
+
+" choose win
+nmap <leader>cw <Plug>(choosewin)
