@@ -36,4 +36,4 @@ autocmd BufRead * set conceallevel=0
 " -Djava.awt.headless=true : prevent Java to take over window focus
 " open -g : does not bring the application to the foreground.
 command! PlantUmlSvg :AsyncRun! java -Djava.awt.headless=true -jar $HOME/.vim/plugged/vim-slumlord/plantuml.jar -tsvg % && open -g %:r.svg
-command! PlantUmlTxt :AsyncRun! java -Dapple.awt.UIElement=true -splash: -jar .vim/plugged/vim-slumlord/plantuml.jar -charset UTF-8 -tutxt %
+command! PlantUmlTxt :AsyncRun! java -Dapple.awt.UIElement=true -splash: -jar $HOME/.vim/plugged/vim-slumlord/plantuml.jar -charset UTF-8 -tutxt %
