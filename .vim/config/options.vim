@@ -3,6 +3,10 @@
 " make Vim either more Vi-compatible, or make Vim behave in a more useful way
 set nocompatible
 
+" encoding used for the terminal
+set encoding=utf8
+set termencoding=utf-8
+
 " disable file type detection
 " filetype off
 
@@ -105,9 +109,6 @@ set cc=+1
 " open new split panes to right and bottom, which feels more natural than Vim's default
 set splitbelow
 set splitright
-
-" encoding used for the terminal
-set termencoding=utf-8
 
 " disable autocomplete preview menu
 set completeopt-=preview
