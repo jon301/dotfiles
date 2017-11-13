@@ -75,7 +75,8 @@ vnoremap > >gv
 vnoremap < <gv
 
 " plantuml
-autocmd FileType pu,uml,plantuml nnoremap <buffer> <leader>pu :call PlantUmlSvg()<CR>
+autocmd FileType pu,uml,plantuml nnoremap <buffer> <leader>pus :PlantUmlSvg<CR>
+autocmd FileType pu,uml,plantuml nnoremap <buffer> <leader>put :PlantUmlTxt<CR>
 
 " go to file under cursor
 nnoremap <leader>gf <c-w>gf

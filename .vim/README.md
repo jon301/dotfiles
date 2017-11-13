@@ -36,12 +36,6 @@
     Install Java Platform JDK
     http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-    Download PlantUML JAR file
-    http://plantuml.com/download
-
-    Put the JAR file at this location
-    `$HOME/lib/java/plantuml.jar`
-
 5. Install reattach-to-user-namespace
 
     `brew install reattach-to-user-namespace`

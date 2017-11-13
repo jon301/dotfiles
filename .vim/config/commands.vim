@@ -31,3 +31,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 " always show text normally (override roamer plugin value)
 autocmd BufRead * set conceallevel=0
+
+" generate plantuml svg/txt file
+" -Djava.awt.headless=true : prevent Java to take over window focus
+" open -g : does not bring the application to the foreground.
+command! PlantUmlSvg :AsyncRun! java -Djava.awt.headless=true -jar $HOME/.vim/plugged/vim-slumlord/plantuml.jar -tsvg % && open -g %:r.svg
+command! PlantUmlTxt :AsyncRun! java -Dapple.awt.UIElement=true -splash: -jar .vim/plugged/vim-slumlord/plantuml.jar -charset UTF-8 -tutxt %

@@ -1,1 +1,1 @@
-let g:plantuml_executable_script = 'java -jar $HOME/lib/java/plantuml.jar -tsvg $@'
+let g:plantuml_executable_script = 'java -jar $HOME/.vim/plugged/vim-slumlord/plantuml.jar -tsvg $@'
