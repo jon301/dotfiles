@@ -5,7 +5,7 @@
     `brew update`
 
     New install
-    `brew install vim --with-lua`
+    `brew install vim --with-lua --with-gettext`
 
     or upgrade
     `brew upgrade vim`
@@ -13,6 +13,7 @@
 1. Install `ag` itself first:
 
    https://github.com/rking/ag.vim#installation
+   `brew install the_silver_searcher`
 
 2. Install `eslint`:
 
