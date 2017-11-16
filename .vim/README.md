@@ -69,3 +69,39 @@
     - For 'Caps Lock (⇪) Key', choose '⎋ Escape'
     - Click 'OK'
 
+4. Switch between Java version
+
+Run `javac -version` to see which version is being exported. For instance, this will return:
+
+```
+$ javac -version
+javac 9.0.1
+```
+
+Use this command to check currently installed versions:
+
+`$ /usr/libexec/java_home -V`
+
+It will show you something like:
+
+```
+$ /usr/libexec/java_home -V
+Matching Java Virtual Machines (2):
+    9.0.1, x86_64:	"Java SE 9.0.1"	/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home
+    1.8.0_131, x86_64:	"Java SE 8"	/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
+```
+
+If you have multiple versions you can select the desired $JAVA_HOME export like so:
+
+`export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)`
+
+(if you have multiple versions of 1.8 for instance you should specify the entire version number: 1.8.0_131. If it's unique, 1.8 will do.)
+
+Add that export to `~/.bash_profile` to make it default and restart the terminal.
+
+Output of javac -version is now:
+
+```
+$ javac -version
+javac 1.8.0_131
+```
