@@ -1,0 +1,34 @@
+{
+    "workbench.editor.enablePreview": false,
+    "vim.easymotion": true,
+    "vim.cmdLineInitialColon": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "vim.insertModeKeyBindigs": [
+        {
+            "before": ["j","j"],
+            "after": ["<esc>"]
+        }
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["leader", "j"],
+            "after": ["leader", "leader", "j"]
+        },
+        {
+            "before": ["leader", "k"],
+            "after": ["leader", "leader", "k"]
+        },
+        {
+            "before": ["leader", "leader", "j"],
+            "after": ["leader", "leader", "w"]
+        },
+        {
+            "before": ["leader", "leader", "k"],
+            "after": ["leader", "leader", "b"]
+        }
+    ]
+}
