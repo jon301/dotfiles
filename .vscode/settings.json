@@ -98,5 +98,6 @@
     "window.zoomLevel": 1,
     "files.trimTrailingWhitespace": true,
     "vsicons.projectDetection.autoReload": true,
-    "extensions.autoUpdate": false
+    "extensions.autoUpdate": false,
+    "editor.rulers": [80]
   }
