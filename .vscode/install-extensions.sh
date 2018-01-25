@@ -14,6 +14,7 @@ code --install-extension johnpapa.Angular2
 code --install-extension mohsen1.prettify-json
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension robertohuertasm.vscode-icons
+code --install-extension shardulm94.trailing-spaces
 code --install-extension vscodevim.vim
 code --install-extension wmaurer.change-case
 code --install-extension Zignd.html-css-class-completion
