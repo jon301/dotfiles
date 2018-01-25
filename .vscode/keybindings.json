@@ -1,4 +1,12 @@
-// Placez vos combinaisons de touches dans ce fichier pour remplacer les valeurs par défaut
+// Place your key bindings in this file to overwrite the defaults
 [
-    { "key": "ctrl+shift+e", "command": "workbench.files.action.focusFilesExplorer"},
+    {
+        "key": "ctrl+shift+e",
+        "command": "workbench.files.action.focusFilesExplorer"
+    },
+    {
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "key": "ctrl+shift+d",
+        "when": "editorFocus"
+    }
 ]
