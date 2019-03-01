@@ -17,3 +17,4 @@ alias fhere="find . -name "
 alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
 # clear
 alias cl="clear"
+alias kube-dashboard="open http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/ & kubectl proxy"
