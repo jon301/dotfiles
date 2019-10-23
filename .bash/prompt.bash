@@ -81,6 +81,7 @@ On_IWhite="\[\033[0;107m\]"   # White
 # Various variables you might want for your PS1 prompt instead
 Time12h="\T"
 Time12a="\@"
+Time24h="\t"
 PathShort="\w"
 PathFull="\W"
 NewLine="\n"
@@ -90,7 +91,7 @@ Jobs="\j"
 # This PS1 snippet was adopted from code for MAC/BSD I saw from: http://allancraig.net/index.php?option=com_content&view=article&id=108:ps1-export-command-for-git&catid=45:general&Itemid=96
 # I tweaked it to work on UBUNTU 11.04 & 11.10 plus made it mo' better
 
-export PS1=$IBlack$Color_Off'$(git branch &>/dev/null;\
+export PS1=$Color_Off'$(git branch &>/dev/null;\
 if [ $? -eq 0 ]; then \
   echo "$(echo `git status` | grep "nothing to commit" > /dev/null 2>&1; \
   if [ "$?" -eq "0" ]; then \
@@ -99,8 +100,8 @@ if [ $? -eq 0 ]; then \
   else \
     # @5 - Changes to working tree
     echo "'$IRed'"$(__git_ps1 "%s"); \
-  fi) '$BYellow$PathShort$Color_Off'\$ "; \
+  fi) '$BYellow$PathShort\ $IBlack$Time24h\ $Color_Off'\$ "; \
 else \
   # @2 - Prompt when not in GIT repo
-  echo " '$Yellow$PathShort$Color_Off'\$ "; \
+  echo " '$Yellow$PathShort\ $IBlack$Time24h\ $Color_Off'\$ "; \
 fi)'
