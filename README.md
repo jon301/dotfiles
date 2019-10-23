@@ -17,13 +17,14 @@
 - Install tmux: `brew install tmux`
 - Install tmuxinator: `sudo gem install tmuxinator`
 - Install tmux plugin manager: `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
+- Install `reattach-to-user-namespace` for `tmux-fingers` plugin: `brew install reattach-to-user-namespace`
 
 ## Tips
 
 1. Don't install node globally
 
 - Prefer using nvm
-- brew uninstall node
+- brew uninstall node --ignore-dependencies
 - rm -rf /usr/local/lib/node_modules
 
 2. mac OS: Stop spaces rearranging automatically
