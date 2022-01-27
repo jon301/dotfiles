@@ -1,1 +1,0 @@
-bindkey \^K kill-line
