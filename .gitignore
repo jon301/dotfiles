@@ -7,5 +7,6 @@
 .vim/init.vim
 .ssh/id_rsa*
 .ssh/known_hosts
-.bash/private.bash
+private.bash
+private.sh
 .tmuxinator
