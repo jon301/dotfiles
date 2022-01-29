@@ -1,3 +1,5 @@
+bindkey -e
+
 # make C-k delete the rest of the line
 bindkey \^K kill-line
 

@@ -6,7 +6,11 @@ export FZF_DEFAULT_COMMAND=' (git ls-tree -r --name-only HEAD || find . -path "*
 # add more paths separated with :
 # export PATH="$PATH"
 export GOPATH=$(go env GOPATH)
+
 export PATH="/Users/jonjon/lib/flutter/bin:/Users/jonjon/lib/google-cloud-sdk/bin:$(go env GOPATH)/bin:/usr/local/sbin:$PATH"
+export PNPM_HOME="/Users/jonjon/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+
 # export NODE_GYP_FORCE_PYTHON="/usr/local/bin/python2"
 export NODE_GYP_FORCE_PYTHON="/usr/bin/python"
 export BASH_SILENCE_DEPRECATION_WARNING=1
