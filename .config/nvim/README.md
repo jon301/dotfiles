@@ -8,7 +8,7 @@ brew install tree-sitter
 - For prettier
 brew install prettierd
 
-- For telescope 
+- For telescope
 brew install ripgrep
 
 - For nvim-tree

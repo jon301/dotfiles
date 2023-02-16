@@ -17,3 +17,6 @@ alias fhere="find . -name "
 alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
 # clear
 alias cl="clear"
+alias python="python3"
+alias gco="git checkout \$(git branch | fzf)"
+alias bcp="git branch --show-current | pbcopy"
